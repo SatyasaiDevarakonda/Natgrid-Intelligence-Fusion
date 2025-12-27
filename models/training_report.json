@@ -1,0 +1,49 @@
+{
+  "timestamp": "2025-12-27T21:03:29.859997",
+  "config": {
+    "llm_provider": "mistral_api",
+    "ner_model": "dslim/bert-base-NER",
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "anomaly_contamination": 0.15
+  },
+  "metrics": {
+    "anomaly_detection": {
+      "train_time": 0.35593128204345703,
+      "accuracy": 0.44879898862199746,
+      "precision": 0.6974789915966386,
+      "recall": 0.17184265010351968,
+      "f1_score": 0.2757475083056478,
+      "roc_auc": 0.19244575300475925,
+      "confusion_matrix": [
+        [
+          272,
+          36
+        ],
+        [
+          400,
+          83
+        ]
+      ]
+    },
+    "search_embeddings": {
+      "init_time": 6.828258514404297,
+      "index_time": 1.651573657989502,
+      "num_documents": 180,
+      "embedding_dim": 384,
+      "search_accuracy": 1.0
+    },
+    "ner_validation": {
+      "load_time": 1.3392791748046875,
+      "precision": 0.6555555555555556,
+      "recall": 0.6333333333333333,
+      "f1_score": 0.6044444444444445,
+      "num_test_cases": 5
+    },
+    "llm_initialization": {
+      "provider": "mistral_api",
+      "load_time": 2.4724245071411133,
+      "generation_time": 1.254561185836792,
+      "tokens_per_second": 54.20221888551734
+    }
+  }
+}

@@ -1,0 +1,40 @@
+# NATGRID Intelligence Fusion System - Requirements
+# ================================================
+
+# Core Dependencies
+streamlit>=1.28.0
+pandas>=2.0.0
+numpy>=1.24.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# Visualization
+plotly>=5.18.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+
+# NLP Models (for NER and Embeddings - these work without GPU)
+transformers>=4.35.0
+sentence-transformers>=2.2.0
+
+# PyTorch (CPU version works fine for NER/embeddings)
+torch>=2.0.0
+
+# LLM Providers - Choose one based on your .env LLM_PROVIDER setting:
+# For Mistral API (NEW v1.0+ API)
+mistralai>=1.0.0
+
+# Optional: Google Gemini SDK (for gemini provider)
+# google-generativeai
+
+# Optional: OpenAI SDK (for openai provider)
+# openai
+
+# Optional: For local GPU with Mistral (advanced users)
+accelerate>=0.24.0
+bitsandbytes>=0.41.0
+
+# Utilities
+python-dateutil>=2.8.0
+tqdm>=4.65.0

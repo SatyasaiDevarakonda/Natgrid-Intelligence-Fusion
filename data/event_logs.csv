@@ -1,0 +1,792 @@
+event_id,timestamp,user_id,user_name,department,event_type,location,access_level,transaction_amount,ip_address,duration_mins,device_id,status,is_anomaly,anomaly_type
+EVT00309,2024-11-01 05:18:00,USR_1006,Anjali Verma,Intelligence,database_access,Pune,Level-3,,192.168.7.109,55,DEV_A18,success,1,Unusual Time Access
+EVT00083,2024-11-01 06:33:00,USR_1005,Vikram Singh,Security,file_access,Hyderabad,Level-1,218085.0,192.168.5.135,37,DEV_A13,success,0,
+EVT00398,2024-11-01 09:00:00,USR_1008,Kavita Joshi,Analysis,data_export,Ahmedabad,Level-2,7882108.0,192.168.2.230,114,DEV_A05,success,1,Unusual Transaction
+EVT00096,2024-11-01 11:26:00,USR_1002,Priya Sharma,Analysis,api_call,Delhi,Level-3,,192.168.2.84,4,DEV_A04,success,0,
+EVT00257,2024-11-01 12:16:00,USR_1006,Anjali Verma,Intelligence,api_call,Pune,Level-1,,192.168.6.78,23,DEV_A05,success,0,
+EVT00308,2024-11-02 02:05:00,USR_1007,Rohit Mehta,Support,database_access,Kolkata,Level-3,,192.168.6.151,56,DEV_A20,success,1,Unusual Time Access
+EVT00002,2024-11-02 09:05:00,USR_1007,Rohit Mehta,Support,file_access,Kolkata,Level-1,40453.0,192.168.7.16,37,DEV_A04,success,0,
+EVT00073,2024-11-02 09:15:00,USR_1002,Priya Sharma,Analysis,file_access,Delhi,Level-1,,192.168.2.71,10,DEV_A08,success,0,
+EVT00292,2024-11-02 09:33:00,USR_1007,Rohit Mehta,Support,report_generation,Kolkata,Level-1,19788.0,192.168.7.14,34,DEV_A14,success,0,
+EVT00193,2024-11-02 10:16:00,USR_1001,Rajesh Kumar,Intelligence,file_access,Mumbai,Level-1,,192.168.1.196,40,DEV_A09,success,0,
+EVT00265,2024-11-02 13:25:00,USR_1008,Kavita Joshi,Analysis,login,Ahmedabad,Level-1,,192.168.8.158,6,DEV_A01,success,0,
+EVT00165,2024-11-02 15:29:00,USR_1001,Rajesh Kumar,Intelligence,database_access,Mumbai,Level-2,,192.168.1.156,27,DEV_A12,success,0,
+EVT00072,2024-11-02 16:47:00,USR_1002,Priya Sharma,Analysis,system_query,Delhi,Level-1,,192.168.2.99,16,DEV_A11,success,0,
+EVT00140,2024-11-02 18:03:00,USR_1004,Sneha Reddy,Operations,data_export,Chennai,Level-1,,192.168.4.42,38,DEV_A04,success,0,
+EVT00222,2024-11-03 10:41:00,USR_1001,Rajesh Kumar,Intelligence,data_export,Mumbai,Level-2,,192.168.1.206,38,DEV_A07,success,0,
+EVT00135,2024-11-03 11:02:00,USR_1002,Priya Sharma,Analysis,login,Delhi,Level-2,128102.0,192.168.2.237,36,DEV_A03,success,0,
+EVT00192,2024-11-03 11:18:00,USR_1003,Amit Patel,Cyber,data_export,Bangalore,Level-2,,192.168.3.45,32,DEV_A08,success,0,
+EVT00185,2024-11-03 16:26:00,USR_1003,Amit Patel,Cyber,login,Bangalore,Level-1,,192.168.3.166,20,DEV_A13,success,0,
+EVT00198,2024-11-03 16:40:00,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.7.74,3,DEV_A06,success,0,
+EVT00234,2024-11-03 17:02:00,USR_1007,Rohit Mehta,Support,database_access,Kolkata,Level-1,22826.0,192.168.7.215,32,DEV_A09,success,0,
+EVT00289,2024-11-03 17:53:00,USR_1001,Rajesh Kumar,Intelligence,data_export,Mumbai,Level-1,,192.168.1.181,5,DEV_A13,success,0,
+EVT00251,2024-11-03 17:58:00,USR_1004,Sneha Reddy,Operations,file_access,Chennai,Level-1,,192.168.4.224,13,DEV_A15,success,0,
+EVT00145,2024-11-03 18:46:00,USR_1004,Sneha Reddy,Operations,data_export,Chennai,Level-1,,192.168.4.178,35,DEV_A05,success,0,
+EVT00146,2024-11-04 09:30:00,USR_1008,Kavita Joshi,Analysis,data_export,Ahmedabad,Level-2,,192.168.8.37,33,DEV_A12,success,0,
+EVT00032,2024-11-04 09:37:00,USR_1006,Anjali Verma,Intelligence,api_call,Pune,Level-1,67562.0,192.168.6.30,13,DEV_A02,success,0,
+EVT00099,2024-11-04 10:10:00,USR_1003,Amit Patel,Cyber,data_export,Bangalore,Level-2,,192.168.3.221,38,DEV_A15,success,0,
+EVT00248,2024-11-04 12:42:00,USR_1004,Sneha Reddy,Operations,system_query,Chennai,Level-1,16259.0,192.168.4.23,8,DEV_A07,success,0,
+EVT00188,2024-11-04 13:41:00,USR_1003,Amit Patel,Cyber,api_call,Bangalore,Level-2,,192.168.3.36,35,DEV_A14,success,0,
+EVT00291,2024-11-04 14:39:00,USR_1008,Kavita Joshi,Analysis,report_generation,Ahmedabad,Level-2,,192.168.8.14,2,DEV_A09,success,0,
+EVT00107,2024-11-04 15:12:00,USR_1008,Kavita Joshi,Analysis,system_query,Ahmedabad,Level-2,,192.168.8.137,42,DEV_A08,success,0,
+EVT00026,2024-11-04 16:43:00,USR_1007,Rohit Mehta,Support,report_generation,Kolkata,Level-1,,192.168.7.35,5,DEV_A07,success,0,
+EVT00162,2024-11-04 18:00:00,USR_1007,Rohit Mehta,Support,file_access,Kolkata,Level-1,,192.168.7.64,10,DEV_A13,success,0,
+EVT00224,2024-11-05 05:44:00,USR_1005,Vikram Singh,Security,database_access,Hyderabad,Level-1,258887.0,192.168.5.128,15,DEV_A06,success,0,
+EVT00042,2024-11-05 10:56:00,USR_1001,Rajesh Kumar,Intelligence,report_generation,Mumbai,Level-1,,192.168.1.223,25,DEV_A10,success,0,
+EVT00183,2024-11-05 11:18:00,USR_1003,Amit Patel,Cyber,data_export,Bangalore,Level-1,,192.168.3.148,35,DEV_A01,success,0,
+EVT00399,2024-11-05 12:00:00,USR_1008,Kavita Joshi,Analysis,data_export,Ahmedabad,Level-2,8213423.0,192.168.2.197,163,DEV_A04,success,1,Unusual Transaction
+EVT00178,2024-11-05 14:21:00,USR_1001,Rajesh Kumar,Intelligence,database_access,Mumbai,Level-2,95861.0,192.168.1.228,44,DEV_A15,success,0,
+EVT00078,2024-11-05 14:32:00,USR_1007,Rohit Mehta,Support,report_generation,Kolkata,Level-1,,192.168.7.227,28,DEV_A14,success,0,
+EVT00401,2024-11-05 17:00:00,USR_1003,Amit Patel,Cyber,data_export,Bangalore,Level-2,9725229.0,192.168.1.166,143,DEV_A06,success,1,Unusual Transaction
+EVT00403,2024-11-06 10:00:00,USR_1004,Sneha Reddy,Operations,data_export,Chennai,Level-1,6174515.0,192.168.2.160,153,DEV_A13,success,1,Unusual Transaction
+EVT00147,2024-11-06 10:20:00,USR_1008,Kavita Joshi,Analysis,system_query,Ahmedabad,Level-1,37046.0,192.168.8.169,42,DEV_A10,success,0,
+EVT00151,2024-11-06 10:27:00,USR_1002,Priya Sharma,Analysis,database_access,Delhi,Level-3,,192.168.2.217,10,DEV_A09,success,0,
+EVT00189,2024-11-06 13:48:00,USR_1002,Priya Sharma,Analysis,file_access,Delhi,Level-2,274144.0,192.168.2.47,29,DEV_A02,success,0,
+EVT00280,2024-11-06 14:34:00,USR_1008,Kavita Joshi,Analysis,report_generation,Ahmedabad,Level-1,50436.0,192.168.8.182,40,DEV_A10,success,0,
+EVT00179,2024-11-06 14:37:00,USR_1003,Amit Patel,Cyber,report_generation,Bangalore,Level-1,,192.168.3.89,43,DEV_A12,success,0,
+EVT00191,2024-11-06 15:23:00,USR_1004,Sneha Reddy,Operations,file_access,Chennai,Level-1,7493.0,192.168.4.224,43,DEV_A06,success,0,
+EVT00101,2024-11-06 16:38:00,USR_1008,Kavita Joshi,Analysis,database_access,Ahmedabad,Level-2,,192.168.8.164,18,DEV_A01,success,0,
+EVT00306,2024-11-07 04:05:00,USR_1006,Anjali Verma,Intelligence,database_access,Pune,Level-3,,192.168.1.88,101,DEV_A12,success,1,Unusual Time Access
+EVT00233,2024-11-07 11:25:00,USR_1002,Priya Sharma,Analysis,login,Delhi,Level-2,,192.168.2.103,11,DEV_A04,success,0,
+EVT00293,2024-11-07 11:58:00,USR_1007,Rohit Mehta,Support,database_access,Kolkata,Level-1,,192.168.7.71,14,DEV_A10,success,0,
+EVT00133,2024-11-07 14:43:00,USR_1007,Rohit Mehta,Support,file_access,Kolkata,Level-1,,192.168.7.168,37,DEV_A06,success,0,
+EVT00249,2024-11-07 16:43:00,USR_1006,Anjali Verma,Intelligence,data_export,Pune,Level-1,73135.0,192.168.6.247,12,DEV_A07,success,0,
+EVT00095,2024-11-07 18:48:00,USR_1001,Rajesh Kumar,Intelligence,file_access,Mumbai,Level-1,11641.0,192.168.1.50,17,DEV_A03,success,0,
+EVT00050,2024-11-07 22:38:00,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-2,,192.168.5.90,29,DEV_A10,success,0,
+EVT00100,2024-11-08 05:29:00,USR_1005,Vikram Singh,Security,report_generation,Hyderabad,Level-2,,192.168.5.79,34,DEV_A09,success,0,
+EVT00014,2024-11-08 09:09:00,USR_1002,Priya Sharma,Analysis,report_generation,Delhi,Level-1,,192.168.2.118,40,DEV_A02,success,0,
+EVT00195,2024-11-08 10:53:00,USR_1008,Kavita Joshi,Analysis,api_call,Ahmedabad,Level-1,,192.168.8.157,17,DEV_A12,success,0,
+EVT00166,2024-11-08 13:25:00,USR_1007,Rohit Mehta,Support,database_access,Kolkata,Level-1,,192.168.7.53,41,DEV_A08,success,0,
+EVT00087,2024-11-08 14:47:00,USR_1004,Sneha Reddy,Operations,system_query,Chennai,Level-1,,192.168.4.186,13,DEV_A04,success,0,
+EVT00098,2024-11-08 15:34:00,USR_1004,Sneha Reddy,Operations,file_access,Chennai,Level-1,,192.168.4.242,19,DEV_A14,success,0,
+EVT00006,2024-11-08 17:59:00,USR_1008,Kavita Joshi,Analysis,api_call,Ahmedabad,Level-1,,192.168.8.222,42,DEV_A10,success,0,
+EVT00142,2024-11-09 00:34:00,USR_1005,Vikram Singh,Security,login,Hyderabad,Level-1,459268.0,192.168.5.16,10,DEV_A01,success,0,
+EVT00301,2024-11-09 05:50:00,USR_1006,Anjali Verma,Intelligence,database_access,Pune,Level-3,,192.168.2.138,89,DEV_A02,success,1,Unusual Time Access
+EVT00201,2024-11-09 11:04:00,USR_1008,Kavita Joshi,Analysis,report_generation,Ahmedabad,Level-2,27422.0,192.168.8.21,14,DEV_A15,success,0,
+EVT00260,2024-11-09 12:30:00,USR_1004,Sneha Reddy,Operations,file_access,Chennai,Level-1,,192.168.4.165,25,DEV_A07,success,0,
+EVT00375,2024-11-09 13:00:00,USR_1002,Priya Sharma,Analysis,login,Proxy Server,Level-3,,93.33.180.222,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00376,2024-11-09 13:02:00,USR_1002,Priya Sharma,Analysis,login,Unknown,Level-3,,41.38.183.83,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00377,2024-11-09 13:04:00,USR_1002,Priya Sharma,Analysis,login,Unknown,Level-3,,96.101.126.37,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00378,2024-11-09 13:06:00,USR_1002,Priya Sharma,Analysis,login,Proxy Server,Level-3,,90.107.97.116,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00379,2024-11-09 13:08:00,USR_1002,Priya Sharma,Analysis,login,Unknown,Level-3,,91.204.226.197,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00307,2024-11-09 14:05:00,USR_1005,Vikram Singh,Security,database_access,Hyderabad,Level-3,,192.168.3.120,102,DEV_A18,success,1,Unusual Time Access
+EVT00041,2024-11-09 14:40:00,USR_1001,Rajesh Kumar,Intelligence,login,Mumbai,Level-1,,192.168.1.151,29,DEV_A09,success,0,
+EVT00043,2024-11-09 15:02:00,USR_1003,Amit Patel,Cyber,login,Bangalore,Level-2,,192.168.3.213,4,DEV_A15,success,0,
+EVT00290,2024-11-09 15:53:00,USR_1001,Rajesh Kumar,Intelligence,report_generation,Mumbai,Level-1,20795.0,192.168.1.12,15,DEV_A09,success,0,
+EVT00210,2024-11-09 18:33:00,USR_1002,Priya Sharma,Analysis,login,Delhi,Level-2,151113.0,192.168.2.73,9,DEV_A01,success,0,
+EVT00184,2024-11-09 18:38:00,USR_1006,Anjali Verma,Intelligence,api_call,Pune,Level-1,91812.0,192.168.6.207,41,DEV_A13,success,0,
+EVT00113,2024-11-10 05:28:00,USR_1005,Vikram Singh,Security,system_query,Hyderabad,Level-2,294363.0,192.168.5.205,36,DEV_A07,success,0,
+EVT00159,2024-11-10 09:10:00,USR_1002,Priya Sharma,Analysis,data_export,Delhi,Level-3,47772.0,192.168.2.79,30,DEV_A11,success,0,
+EVT00208,2024-11-10 09:54:00,USR_1003,Amit Patel,Cyber,system_query,Bangalore,Level-2,9812.0,192.168.3.70,43,DEV_A06,success,0,
+EVT00271,2024-11-10 14:17:00,USR_1008,Kavita Joshi,Analysis,file_access,Ahmedabad,Level-1,87533.0,192.168.8.117,41,DEV_A13,success,0,
+EVT00172,2024-11-10 14:28:00,USR_1006,Anjali Verma,Intelligence,database_access,Pune,Level-2,,192.168.6.87,19,DEV_A10,success,0,
+EVT00121,2024-11-10 15:15:00,USR_1006,Anjali Verma,Intelligence,system_query,Pune,Level-2,,192.168.6.212,13,DEV_A03,success,0,
+EVT00039,2024-11-10 17:17:00,USR_1002,Priya Sharma,Analysis,login,Delhi,Level-3,184768.0,192.168.2.62,45,DEV_A11,success,0,
+EVT00300,2024-11-11 04:36:00,USR_1002,Priya Sharma,Analysis,database_access,Delhi,Level-3,,192.168.4.155,94,DEV_A18,success,1,Unusual Time Access
+EVT00228,2024-11-11 12:31:00,USR_1006,Anjali Verma,Intelligence,system_query,Pune,Level-2,,192.168.6.88,33,DEV_A01,success,0,
+EVT00045,2024-11-11 12:51:00,USR_1003,Amit Patel,Cyber,data_export,Bangalore,Level-1,,192.168.3.16,13,DEV_A12,success,0,
+EVT00018,2024-11-11 14:34:00,USR_1003,Amit Patel,Cyber,data_export,Bangalore,Level-1,,192.168.3.135,3,DEV_A02,success,0,
+EVT00120,2024-11-11 16:44:00,USR_1002,Priya Sharma,Analysis,login,Delhi,Level-1,422408.0,192.168.2.24,20,DEV_A06,success,0,
+EVT00288,2024-11-11 16:46:00,USR_1008,Kavita Joshi,Analysis,data_export,Ahmedabad,Level-2,95412.0,192.168.8.149,33,DEV_A03,success,0,
+EVT00017,2024-11-12 06:32:00,USR_1005,Vikram Singh,Security,database_access,Hyderabad,Level-3,339993.0,192.168.5.139,40,DEV_A04,success,0,
+EVT00269,2024-11-12 10:34:00,USR_1006,Anjali Verma,Intelligence,api_call,Pune,Level-1,,192.168.6.67,2,DEV_A13,success,0,
+EVT00242,2024-11-12 14:29:00,USR_1007,Rohit Mehta,Support,system_query,Kolkata,Level-1,,192.168.7.100,45,DEV_A13,success,0,
+EVT00156,2024-11-12 22:17:00,USR_1005,Vikram Singh,Security,report_generation,Hyderabad,Level-2,,192.168.5.99,2,DEV_A03,success,0,
+EVT00103,2024-11-12 22:30:00,USR_1005,Vikram Singh,Security,system_query,Hyderabad,Level-3,150834.0,192.168.5.56,39,DEV_A07,success,0,
+EVT00058,2024-11-13 01:09:00,USR_1005,Vikram Singh,Security,database_access,Hyderabad,Level-1,254108.0,192.168.5.166,6,DEV_A08,success,0,
+EVT00212,2024-11-13 05:07:00,USR_1005,Vikram Singh,Security,file_access,Hyderabad,Level-1,476166.0,192.168.5.192,30,DEV_A02,success,0,
+EVT00243,2024-11-13 05:15:00,USR_1005,Vikram Singh,Security,login,Hyderabad,Level-3,498609.0,192.168.5.86,20,DEV_A12,success,0,
+EVT00281,2024-11-13 10:51:00,USR_1001,Rajesh Kumar,Intelligence,data_export,Mumbai,Level-1,,192.168.1.232,23,DEV_A05,success,0,
+EVT00031,2024-11-13 11:18:00,USR_1008,Kavita Joshi,Analysis,file_access,Ahmedabad,Level-1,,192.168.8.148,5,DEV_A12,success,0,
+EVT00282,2024-11-13 12:47:00,USR_1001,Rajesh Kumar,Intelligence,database_access,Mumbai,Level-2,,192.168.1.188,40,DEV_A12,success,0,
+EVT00220,2024-11-13 13:40:00,USR_1002,Priya Sharma,Analysis,system_query,Delhi,Level-2,163767.0,192.168.2.167,36,DEV_A02,success,0,
+EVT00254,2024-11-13 13:51:00,USR_1008,Kavita Joshi,Analysis,database_access,Ahmedabad,Level-2,61150.0,192.168.8.175,18,DEV_A12,success,0,
+EVT00114,2024-11-13 14:44:00,USR_1008,Kavita Joshi,Analysis,file_access,Ahmedabad,Level-2,54841.0,192.168.8.21,22,DEV_A12,success,0,
+EVT00059,2024-11-13 18:45:00,USR_1007,Rohit Mehta,Support,report_generation,Kolkata,Level-1,,192.168.7.112,17,DEV_A03,success,0,
+EVT00007,2024-11-13 18:45:00,USR_1006,Anjali Verma,Intelligence,database_access,Pune,Level-1,,192.168.6.207,20,DEV_A02,success,0,
+EVT00272,2024-11-14 12:04:00,USR_1001,Rajesh Kumar,Intelligence,database_access,Mumbai,Level-1,,192.168.1.182,5,DEV_A04,success,0,
+EVT00149,2024-11-14 17:27:00,USR_1002,Priya Sharma,Analysis,api_call,Delhi,Level-1,438805.0,192.168.2.126,27,DEV_A07,success,0,
+EVT00141,2024-11-14 17:37:00,USR_1002,Priya Sharma,Analysis,file_access,Delhi,Level-1,82360.0,192.168.2.211,40,DEV_A01,success,0,
+EVT00074,2024-11-14 18:29:00,USR_1002,Priya Sharma,Analysis,report_generation,Delhi,Level-2,,192.168.2.52,40,DEV_A10,success,0,
+EVT00302,2024-11-15 05:53:00,USR_1002,Priya Sharma,Analysis,database_access,Delhi,Level-3,,192.168.2.97,95,DEV_A11,success,1,Unusual Time Access
+EVT00011,2024-11-15 09:52:00,USR_1006,Anjali Verma,Intelligence,database_access,Pune,Level-2,,192.168.6.26,15,DEV_A15,success,0,
+EVT00022,2024-11-15 12:04:00,USR_1002,Priya Sharma,Analysis,login,Delhi,Level-1,,192.168.2.68,39,DEV_A04,success,0,
+EVT00127,2024-11-15 13:38:00,USR_1008,Kavita Joshi,Analysis,data_export,Ahmedabad,Level-2,25920.0,192.168.8.168,18,DEV_A11,success,0,
+EVT00047,2024-11-15 16:12:00,USR_1001,Rajesh Kumar,Intelligence,data_export,Mumbai,Level-2,30831.0,192.168.1.67,3,DEV_A11,success,0,
+EVT00068,2024-11-15 16:17:00,USR_1004,Sneha Reddy,Operations,api_call,Chennai,Level-1,,192.168.4.109,23,DEV_A11,success,0,
+EVT00154,2024-11-15 16:54:00,USR_1003,Amit Patel,Cyber,database_access,Bangalore,Level-2,,192.168.3.104,9,DEV_A13,success,0,
+EVT00027,2024-11-16 10:12:00,USR_1006,Anjali Verma,Intelligence,file_access,Pune,Level-2,25050.0,192.168.6.81,31,DEV_A04,success,0,
+EVT00019,2024-11-16 13:03:00,USR_1006,Anjali Verma,Intelligence,file_access,Pune,Level-1,64699.0,192.168.6.218,6,DEV_A13,success,0,
+EVT00327,2024-11-16 14:00:00,USR_1002,Priya Sharma,Analysis,login,Delhi,Level-3,,192.168.3.175,5,DEV_A20,success,0,
+EVT00226,2024-11-16 14:29:00,USR_1002,Priya Sharma,Analysis,database_access,Delhi,Level-2,78860.0,192.168.2.34,5,DEV_A05,success,0,
+EVT00328,2024-11-16 14:30:00,USR_1002,Priya Sharma,Analysis,login,Beijing,Level-3,,194.252.166.174,8,DEV_A19,success,1,Geographic Impossibility
+EVT00199,2024-11-16 14:46:00,USR_1002,Priya Sharma,Analysis,report_generation,Delhi,Level-3,310084.0,192.168.2.198,23,DEV_A03,success,0,
+EVT00283,2024-11-16 15:35:00,USR_1004,Sneha Reddy,Operations,login,Chennai,Level-1,,192.168.4.107,31,DEV_A09,success,0,
+EVT00407,2024-11-16 16:00:00,USR_1004,Sneha Reddy,Operations,database_access,Chennai,Level-3,,192.168.7.38,50,DEV_A16,success,1,Privilege Escalation
+EVT00109,2024-11-16 18:45:00,USR_1001,Rajesh Kumar,Intelligence,file_access,Mumbai,Level-2,,192.168.1.151,28,DEV_A02,success,0,
+EVT00093,2024-11-16 23:07:00,USR_1005,Vikram Singh,Security,system_query,Hyderabad,Level-2,,192.168.5.212,41,DEV_A04,success,0,
+EVT00323,2024-11-17 11:00:00,USR_1004,Sneha Reddy,Operations,login,Chennai,Level-1,,192.168.7.212,5,DEV_A13,success,0,
+EVT00170,2024-11-17 11:12:00,USR_1002,Priya Sharma,Analysis,file_access,Delhi,Level-3,403014.0,192.168.2.177,6,DEV_A03,success,0,
+EVT00324,2024-11-17 11:30:00,USR_1004,Sneha Reddy,Operations,login,Beijing,Level-1,,164.254.154.123,8,DEV_A20,success,1,Geographic Impossibility
+EVT00313,2024-11-17 12:00:00,USR_1006,Anjali Verma,Intelligence,login,Pune,Level-2,,192.168.8.162,5,DEV_A20,success,0,
+EVT00035,2024-11-17 12:25:00,USR_1006,Anjali Verma,Intelligence,file_access,Pune,Level-2,,192.168.6.247,6,DEV_A01,success,0,
+EVT00314,2024-11-17 12:30:00,USR_1006,Anjali Verma,Intelligence,login,Karachi,Level-2,,167.28.35.78,8,DEV_A16,success,1,Geographic Impossibility
+EVT00284,2024-11-17 13:23:00,USR_1006,Anjali Verma,Intelligence,system_query,Pune,Level-2,,192.168.6.215,32,DEV_A13,success,0,
+EVT00106,2024-11-17 14:20:00,USR_1002,Priya Sharma,Analysis,database_access,Delhi,Level-2,,192.168.2.221,2,DEV_A11,success,0,
+EVT00117,2024-11-17 16:21:00,USR_1002,Priya Sharma,Analysis,system_query,Delhi,Level-3,47108.0,192.168.2.228,23,DEV_A14,success,0,
+EVT00305,2024-11-18 02:09:00,USR_1002,Priya Sharma,Analysis,database_access,Delhi,Level-3,,192.168.7.192,64,DEV_A13,success,1,Unusual Time Access
+EVT00294,2024-11-18 03:50:00,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-1,217875.0,192.168.5.127,38,DEV_A04,success,0,
+EVT00001,2024-11-18 09:15:00,USR_1002,Priya Sharma,Analysis,file_access,Delhi,Level-1,,192.168.2.183,36,DEV_A02,success,0,
+EVT00112,2024-11-18 10:49:00,USR_1003,Amit Patel,Cyber,data_export,Bangalore,Level-2,67550.0,192.168.3.78,2,DEV_A05,success,0,
+EVT00108,2024-11-18 12:35:00,USR_1001,Rajesh Kumar,Intelligence,file_access,Mumbai,Level-2,,192.168.1.188,33,DEV_A02,success,0,
+EVT00004,2024-11-18 14:09:00,USR_1007,Rohit Mehta,Support,file_access,Kolkata,Level-1,,192.168.7.96,8,DEV_A02,success,0,
+EVT00088,2024-11-18 16:46:00,USR_1004,Sneha Reddy,Operations,system_query,Chennai,Level-1,,192.168.4.144,40,DEV_A05,success,0,
+EVT00016,2024-11-18 17:49:00,USR_1002,Priya Sharma,Analysis,report_generation,Delhi,Level-2,232942.0,192.168.2.50,31,DEV_A01,success,0,
+EVT00247,2024-11-18 17:59:00,USR_1004,Sneha Reddy,Operations,system_query,Chennai,Level-1,,192.168.4.45,8,DEV_A10,success,0,
+EVT00267,2024-11-19 09:26:00,USR_1008,Kavita Joshi,Analysis,file_access,Ahmedabad,Level-1,,192.168.8.196,43,DEV_A07,success,0,
+EVT00153,2024-11-19 09:38:00,USR_1007,Rohit Mehta,Support,login,Kolkata,Level-1,,192.168.7.157,34,DEV_A04,success,0,
+EVT00194,2024-11-19 10:15:00,USR_1007,Rohit Mehta,Support,login,Kolkata,Level-1,16626.0,192.168.7.117,42,DEV_A13,success,0,
+EVT00129,2024-11-19 10:20:00,USR_1003,Amit Patel,Cyber,report_generation,Bangalore,Level-2,18322.0,192.168.3.211,36,DEV_A15,success,0,
+EVT00089,2024-11-19 12:14:00,USR_1002,Priya Sharma,Analysis,login,Delhi,Level-1,376205.0,192.168.2.146,10,DEV_A05,success,0,
+EVT00253,2024-11-19 14:29:00,USR_1002,Priya Sharma,Analysis,report_generation,Delhi,Level-3,,192.168.2.237,10,DEV_A14,success,0,
+EVT00105,2024-11-19 16:42:00,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.7.150,4,DEV_A08,success,0,
+EVT00187,2024-11-19 16:49:00,USR_1008,Kavita Joshi,Analysis,api_call,Ahmedabad,Level-2,,192.168.8.219,14,DEV_A13,success,0,
+EVT00232,2024-11-19 17:04:00,USR_1006,Anjali Verma,Intelligence,api_call,Pune,Level-2,,192.168.6.81,41,DEV_A11,success,0,
+EVT00091,2024-11-19 18:30:00,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,7734.0,192.168.1.74,32,DEV_A02,success,0,
+EVT00075,2024-11-20 11:06:00,USR_1002,Priya Sharma,Analysis,system_query,Delhi,Level-1,,192.168.2.157,45,DEV_A15,success,0,
+EVT00206,2024-11-20 13:28:00,USR_1006,Anjali Verma,Intelligence,system_query,Pune,Level-2,59183.0,192.168.6.99,30,DEV_A01,success,0,
+EVT00182,2024-11-20 14:11:00,USR_1001,Rajesh Kumar,Intelligence,file_access,Mumbai,Level-2,,192.168.1.134,14,DEV_A04,success,0,
+EVT00202,2024-11-20 14:32:00,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,99735.0,192.168.1.175,14,DEV_A05,success,0,
+EVT00038,2024-11-20 17:59:00,USR_1001,Rajesh Kumar,Intelligence,report_generation,Mumbai,Level-1,,192.168.1.44,18,DEV_A02,success,0,
+EVT00163,2024-11-21 02:07:00,USR_1005,Vikram Singh,Security,database_access,Hyderabad,Level-2,,192.168.5.54,10,DEV_A07,success,0,
+EVT00299,2024-11-21 03:01:00,USR_1001,Rajesh Kumar,Intelligence,database_access,Mumbai,Level-3,,192.168.4.160,63,DEV_A13,success,1,Unusual Time Access
+EVT00064,2024-11-21 03:57:00,USR_1005,Vikram Singh,Security,system_query,Hyderabad,Level-1,126247.0,192.168.5.108,11,DEV_A12,success,0,
+EVT00317,2024-11-21 11:00:00,USR_1008,Kavita Joshi,Analysis,login,Ahmedabad,Level-2,,192.168.7.91,5,DEV_A10,success,0,
+EVT00318,2024-11-21 11:30:00,USR_1008,Kavita Joshi,Analysis,login,Singapore,Level-2,,197.201.63.84,8,DEV_A19,success,1,Geographic Impossibility
+EVT00263,2024-11-21 11:54:00,USR_1003,Amit Patel,Cyber,system_query,Bangalore,Level-2,27922.0,192.168.3.193,39,DEV_A08,success,0,
+EVT00219,2024-11-21 11:59:00,USR_1003,Amit Patel,Cyber,report_generation,Bangalore,Level-1,69012.0,192.168.3.239,20,DEV_A14,success,0,
+EVT00400,2024-11-21 14:00:00,USR_1002,Priya Sharma,Analysis,data_export,Delhi,Level-3,7510335.0,192.168.3.107,159,DEV_A05,success,1,Unusual Transaction
+EVT00082,2024-11-21 16:11:00,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-1,34862.0,192.168.1.97,19,DEV_A15,success,0,
+EVT00240,2024-11-21 16:26:00,USR_1001,Rajesh Kumar,Intelligence,file_access,Mumbai,Level-2,,192.168.1.115,34,DEV_A13,success,0,
+EVT00244,2024-11-21 16:30:00,USR_1004,Sneha Reddy,Operations,login,Chennai,Level-1,,192.168.4.249,19,DEV_A05,success,0,
+EVT00256,2024-11-21 17:05:00,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.7.57,10,DEV_A08,success,0,
+EVT00255,2024-11-22 09:50:00,USR_1003,Amit Patel,Cyber,login,Bangalore,Level-1,84719.0,192.168.3.239,27,DEV_A14,success,0,
+EVT00176,2024-11-22 10:45:00,USR_1008,Kavita Joshi,Analysis,database_access,Ahmedabad,Level-1,93749.0,192.168.8.122,30,DEV_A09,success,0,
+EVT00168,2024-11-22 13:14:00,USR_1007,Rohit Mehta,Support,login,Kolkata,Level-1,,192.168.7.29,34,DEV_A11,success,0,
+EVT00237,2024-11-22 14:43:00,USR_1001,Rajesh Kumar,Intelligence,database_access,Mumbai,Level-2,,192.168.1.213,42,DEV_A01,success,0,
+EVT00315,2024-11-22 15:00:00,USR_1007,Rohit Mehta,Support,login,Kolkata,Level-1,,192.168.6.122,5,DEV_A11,success,0,
+EVT00204,2024-11-22 15:11:00,USR_1008,Kavita Joshi,Analysis,api_call,Ahmedabad,Level-2,69062.0,192.168.8.78,7,DEV_A12,success,0,
+EVT00048,2024-11-22 15:17:00,USR_1004,Sneha Reddy,Operations,data_export,Chennai,Level-1,19292.0,192.168.4.99,43,DEV_A09,success,0,
+EVT00316,2024-11-22 15:30:00,USR_1007,Rohit Mehta,Support,login,Singapore,Level-1,,84.77.83.155,8,DEV_A17,success,1,Geographic Impossibility
+EVT00049,2024-11-22 17:01:00,USR_1007,Rohit Mehta,Support,database_access,Kolkata,Level-1,,192.168.7.76,13,DEV_A10,success,0,
+EVT00357,2024-11-23 00:00:00,USR_1001,Rajesh Kumar,Intelligence,login,Unknown,Level-2,,34.209.99.247,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00358,2024-11-23 00:02:00,USR_1001,Rajesh Kumar,Intelligence,login,Proxy Server,Level-2,,62.176.126.107,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00359,2024-11-23 00:04:00,USR_1001,Rajesh Kumar,Intelligence,login,Proxy Server,Level-2,,72.43.22.145,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00360,2024-11-23 00:06:00,USR_1001,Rajesh Kumar,Intelligence,login,Unknown,Level-2,,38.75.9.71,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00361,2024-11-23 00:08:00,USR_1001,Rajesh Kumar,Intelligence,login,Unknown,Level-2,,78.74.44.200,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00362,2024-11-23 00:10:00,USR_1001,Rajesh Kumar,Intelligence,login,Proxy Server,Level-2,,82.191.198.197,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00363,2024-11-23 00:12:00,USR_1001,Rajesh Kumar,Intelligence,login,Proxy Server,Level-2,,80.131.29.147,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00364,2024-11-23 00:14:00,USR_1001,Rajesh Kumar,Intelligence,login,Unknown,Level-2,,44.199.140.211,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00067,2024-11-23 09:19:00,USR_1008,Kavita Joshi,Analysis,data_export,Ahmedabad,Level-2,,192.168.8.223,28,DEV_A09,success,0,
+EVT00005,2024-11-23 10:54:00,USR_1007,Rohit Mehta,Support,login,Kolkata,Level-1,,192.168.7.216,4,DEV_A12,success,0,
+EVT00349,2024-11-23 11:00:00,USR_1002,Priya Sharma,Analysis,login,Unknown,Level-3,,96.181.205.77,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00350,2024-11-23 11:02:00,USR_1002,Priya Sharma,Analysis,login,Unknown,Level-3,,96.35.81.31,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00351,2024-11-23 11:04:00,USR_1002,Priya Sharma,Analysis,login,Unknown,Level-3,,49.30.47.96,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00352,2024-11-23 11:06:00,USR_1002,Priya Sharma,Analysis,login,Unknown,Level-3,,75.100.108.153,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00353,2024-11-23 11:08:00,USR_1002,Priya Sharma,Analysis,login,Unknown,Level-3,,83.99.109.48,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00354,2024-11-23 11:10:00,USR_1002,Priya Sharma,Analysis,login,Proxy Server,Level-3,,91.138.178.236,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00355,2024-11-23 11:12:00,USR_1002,Priya Sharma,Analysis,login,Unknown,Level-3,,81.43.126.74,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00356,2024-11-23 11:14:00,USR_1002,Priya Sharma,Analysis,login,Unknown,Level-3,,33.81.216.116,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00402,2024-11-23 12:00:00,USR_1008,Kavita Joshi,Analysis,data_export,Ahmedabad,Level-2,6269818.0,192.168.7.167,147,DEV_A15,success,1,Unusual Transaction
+EVT00190,2024-11-23 16:59:00,USR_1004,Sneha Reddy,Operations,database_access,Chennai,Level-1,,192.168.4.111,34,DEV_A06,success,0,
+EVT00571,2024-11-24 09:00:00,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.5.81,1,DEV_A16,success,1,API Abuse
+EVT00572,2024-11-24 09:00:26,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.4.44,1,DEV_A10,success,1,API Abuse
+EVT00573,2024-11-24 09:01:36,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.6.78,1,DEV_A14,success,1,API Abuse
+EVT00575,2024-11-24 09:02:12,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.7.199,1,DEV_A16,success,1,API Abuse
+EVT00574,2024-11-24 09:02:54,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.2.58,1,DEV_A15,success,1,API Abuse
+EVT00576,2024-11-24 09:04:25,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.6.220,1,DEV_A02,success,1,API Abuse
+EVT00584,2024-11-24 09:04:33,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.4.105,1,DEV_A16,success,1,API Abuse
+EVT00580,2024-11-24 09:04:48,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.1.73,1,DEV_A02,success,1,API Abuse
+EVT00577,2024-11-24 09:05:12,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.3.26,1,DEV_A10,success,1,API Abuse
+EVT00582,2024-11-24 09:05:52,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.5.104,1,DEV_A15,success,1,API Abuse
+EVT00578,2024-11-24 09:06:04,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.7.44,1,DEV_A17,success,1,API Abuse
+EVT00579,2024-11-24 09:07:28,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.1.54,1,DEV_A07,success,1,API Abuse
+EVT00581,2024-11-24 09:08:10,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.1.245,1,DEV_A12,success,1,API Abuse
+EVT00598,2024-11-24 09:09:00,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.6.153,1,DEV_A20,success,1,API Abuse
+EVT00587,2024-11-24 09:09:36,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.2.82,1,DEV_A01,success,1,API Abuse
+EVT00589,2024-11-24 09:09:54,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.4.175,1,DEV_A08,success,1,API Abuse
+EVT00583,2024-11-24 09:10:24,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.7.172,1,DEV_A04,success,1,API Abuse
+EVT00590,2024-11-24 09:10:27,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.5.176,1,DEV_A14,success,1,API Abuse
+EVT00588,2024-11-24 09:12:28,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.1.51,1,DEV_A19,success,1,API Abuse
+EVT00585,2024-11-24 09:13:32,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.8.55,1,DEV_A16,success,1,API Abuse
+EVT00586,2024-11-24 09:14:15,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.6.98,1,DEV_A06,success,1,API Abuse
+EVT00605,2024-11-24 09:15:52,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.1.177,1,DEV_A16,success,1,API Abuse
+EVT00597,2024-11-24 09:16:54,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.7.159,1,DEV_A04,success,1,API Abuse
+EVT00591,2024-11-24 09:17:20,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.1.231,1,DEV_A01,success,1,API Abuse
+EVT00592,2024-11-24 09:17:30,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.3.175,1,DEV_A06,success,1,API Abuse
+EVT00614,2024-11-24 09:17:55,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.4.100,1,DEV_A08,success,1,API Abuse
+EVT00625,2024-11-24 09:18:00,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.8.80,1,DEV_A07,success,1,API Abuse
+EVT00602,2024-11-24 09:18:36,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.5.58,1,DEV_A05,success,1,API Abuse
+EVT00595,2024-11-24 09:18:48,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.7.228,1,DEV_A12,success,1,API Abuse
+EVT00629,2024-11-24 09:19:20,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.1.146,1,DEV_A07,success,1,API Abuse
+EVT00596,2024-11-24 09:20:25,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.5.65,1,DEV_A15,success,1,API Abuse
+EVT00593,2024-11-24 09:21:16,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.1.67,1,DEV_A09,success,1,API Abuse
+EVT00606,2024-11-24 09:22:10,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.5.242,1,DEV_A14,success,1,API Abuse
+EVT00594,2024-11-24 09:22:14,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.5.192,1,DEV_A09,success,1,API Abuse
+EVT00635,2024-11-24 09:23:28,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.5.84,1,DEV_A15,success,1,API Abuse
+EVT00600,2024-11-24 09:24:10,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.2.96,1,DEV_A09,success,1,API Abuse
+EVT00621,2024-11-24 09:24:10,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.3.61,1,DEV_A11,success,1,API Abuse
+EVT00641,2024-11-24 09:25:40,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.7.234,1,DEV_A09,success,1,API Abuse
+EVT00627,2024-11-24 09:26:08,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.7.172,1,DEV_A14,success,1,API Abuse
+EVT00623,2024-11-24 09:26:52,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.2.134,1,DEV_A11,success,1,API Abuse
+EVT00607,2024-11-24 09:27:00,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.7.198,1,DEV_A02,success,1,API Abuse
+EVT00599,2024-11-24 09:27:04,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.5.86,1,DEV_A04,success,1,API Abuse
+EVT00626,2024-11-24 09:27:30,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.3.135,1,DEV_A03,success,1,API Abuse
+EVT00603,2024-11-24 09:28:16,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.4.240,1,DEV_A02,success,1,API Abuse
+EVT00615,2024-11-24 09:28:36,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.7.211,1,DEV_A11,success,1,API Abuse
+EVT00601,2024-11-24 09:30:00,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.6.230,1,DEV_A09,success,1,API Abuse
+EVT00604,2024-11-24 09:31:54,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.7.179,1,DEV_A11,success,1,API Abuse
+EVT00616,2024-11-24 09:32:15,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.5.159,1,DEV_A10,success,1,API Abuse
+EVT00638,2024-11-24 09:33:30,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.7.14,1,DEV_A08,success,1,API Abuse
+EVT00610,2024-11-24 09:33:48,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.5.226,1,DEV_A06,success,1,API Abuse
+EVT00612,2024-11-24 09:34:10,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.3.199,1,DEV_A09,success,1,API Abuse
+EVT00609,2024-11-24 09:34:12,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.8.242,1,DEV_A12,success,1,API Abuse
+EVT00608,2024-11-24 09:35:09,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.4.97,1,DEV_A08,success,1,API Abuse
+EVT00611,2024-11-24 09:36:40,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.3.85,1,DEV_A04,success,1,API Abuse
+EVT00617,2024-11-24 09:37:34,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.2.130,1,DEV_A02,success,1,API Abuse
+EVT00613,2024-11-24 09:38:30,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.3.184,1,DEV_A11,success,1,API Abuse
+EVT00639,2024-11-24 09:38:32,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.3.64,1,DEV_A01,success,1,API Abuse
+EVT00622,2024-11-24 09:39:06,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.8.46,1,DEV_A11,success,1,API Abuse
+EVT00633,2024-11-24 09:40:18,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.3.36,1,DEV_A13,success,1,API Abuse
+EVT00619,2024-11-24 09:41:36,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.2.232,1,DEV_A13,success,1,API Abuse
+EVT00630,2024-11-24 09:42:17,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.1.238,1,DEV_A11,success,1,API Abuse
+EVT00628,2024-11-24 09:42:45,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.7.132,1,DEV_A13,success,1,API Abuse
+EVT00620,2024-11-24 09:43:17,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.5.115,1,DEV_A02,success,1,API Abuse
+EVT00637,2024-11-24 09:45:06,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.8.101,1,DEV_A07,success,1,API Abuse
+EVT00618,2024-11-24 09:47:00,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.2.130,1,DEV_A07,success,1,API Abuse
+EVT00624,2024-11-24 09:53:00,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.3.90,1,DEV_A02,success,1,API Abuse
+EVT00631,2024-11-24 09:53:00,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.4.14,1,DEV_A01,success,1,API Abuse
+EVT00634,2024-11-24 09:54:36,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.5.52,1,DEV_A03,success,1,API Abuse
+EVT00636,2024-11-24 09:57:25,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.6.121,1,DEV_A05,success,1,API Abuse
+EVT00632,2024-11-24 10:01:00,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.4.67,1,DEV_A12,success,1,API Abuse
+EVT00640,2024-11-24 10:05:33,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.3.41,1,DEV_A12,success,1,API Abuse
+EVT00037,2024-11-24 12:18:00,USR_1002,Priya Sharma,Analysis,file_access,Delhi,Level-2,,192.168.2.190,21,DEV_A10,success,0,
+EVT00285,2024-11-24 12:20:00,USR_1006,Anjali Verma,Intelligence,api_call,Pune,Level-1,,192.168.6.66,11,DEV_A01,success,0,
+EVT00231,2024-11-24 13:48:00,USR_1003,Amit Patel,Cyber,api_call,Bangalore,Level-2,7705.0,192.168.3.155,37,DEV_A04,success,0,
+EVT00177,2024-11-24 14:58:00,USR_1003,Amit Patel,Cyber,login,Bangalore,Level-2,,192.168.3.96,45,DEV_A10,success,0,
+EVT00136,2024-11-24 16:42:00,USR_1007,Rohit Mehta,Support,report_generation,Kolkata,Level-1,,192.168.7.148,28,DEV_A10,success,0,
+EVT00197,2024-11-24 17:04:00,USR_1002,Priya Sharma,Analysis,system_query,Delhi,Level-3,,192.168.2.139,37,DEV_A01,success,0,
+EVT00125,2024-11-25 01:54:00,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-1,304852.0,192.168.5.101,38,DEV_A05,success,0,
+EVT00030,2024-11-25 09:16:00,USR_1007,Rohit Mehta,Support,data_export,Kolkata,Level-1,,192.168.7.83,29,DEV_A12,success,0,
+EVT00008,2024-11-25 10:17:00,USR_1004,Sneha Reddy,Operations,api_call,Chennai,Level-1,,192.168.4.103,12,DEV_A06,success,0,
+EVT00071,2024-11-25 13:20:00,USR_1001,Rajesh Kumar,Intelligence,file_access,Mumbai,Level-2,50692.0,192.168.1.81,28,DEV_A05,success,0,
+EVT00296,2024-11-25 15:35:00,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,1619.0,192.168.7.189,12,DEV_A02,success,0,
+EVT00115,2024-11-25 15:42:00,USR_1008,Kavita Joshi,Analysis,data_export,Ahmedabad,Level-1,,192.168.8.19,10,DEV_A09,success,0,
+EVT00139,2024-11-26 09:17:00,USR_1006,Anjali Verma,Intelligence,file_access,Pune,Level-1,,192.168.6.220,31,DEV_A02,success,0,
+EVT00132,2024-11-26 10:00:00,USR_1006,Anjali Verma,Intelligence,login,Pune,Level-1,,192.168.6.182,45,DEV_A05,success,0,
+EVT00033,2024-11-26 12:07:00,USR_1002,Priya Sharma,Analysis,system_query,Delhi,Level-1,,192.168.2.20,41,DEV_A02,success,0,
+EVT00021,2024-11-26 13:42:00,USR_1004,Sneha Reddy,Operations,report_generation,Chennai,Level-1,,192.168.4.240,35,DEV_A08,success,0,
+EVT00319,2024-11-26 14:00:00,USR_1005,Vikram Singh,Security,login,Hyderabad,Level-3,,192.168.2.248,5,DEV_A19,success,0,
+EVT00320,2024-11-26 14:30:00,USR_1005,Vikram Singh,Security,login,Karachi,Level-3,,189.47.175.197,8,DEV_A20,success,1,Geographic Impossibility
+EVT00380,2024-11-26 16:00:00,USR_1002,Priya Sharma,Analysis,login,Proxy Server,Level-3,,98.240.225.95,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00381,2024-11-26 16:02:00,USR_1002,Priya Sharma,Analysis,login,Proxy Server,Level-3,,72.84.149.1,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00382,2024-11-26 16:04:00,USR_1002,Priya Sharma,Analysis,login,Unknown,Level-3,,68.163.171.179,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00383,2024-11-26 16:06:00,USR_1002,Priya Sharma,Analysis,login,Proxy Server,Level-3,,18.204.137.102,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00384,2024-11-26 16:08:00,USR_1002,Priya Sharma,Analysis,login,Unknown,Level-3,,64.212.55.127,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00385,2024-11-26 16:10:00,USR_1002,Priya Sharma,Analysis,login,Proxy Server,Level-3,,51.213.73.87,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00386,2024-11-26 16:12:00,USR_1002,Priya Sharma,Analysis,login,Unknown,Level-3,,82.219.125.202,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00387,2024-11-26 16:14:00,USR_1002,Priya Sharma,Analysis,login,Proxy Server,Level-3,,97.196.13.12,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00388,2024-11-26 16:16:00,USR_1002,Priya Sharma,Analysis,login,Unknown,Level-3,,90.201.215.118,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00389,2024-11-26 16:18:00,USR_1002,Priya Sharma,Analysis,login,Unknown,Level-3,,25.238.220.41,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00065,2024-11-27 10:26:00,USR_1004,Sneha Reddy,Operations,login,Chennai,Level-1,,192.168.4.116,5,DEV_A04,success,0,
+EVT00029,2024-11-27 11:31:00,USR_1004,Sneha Reddy,Operations,api_call,Chennai,Level-1,27282.0,192.168.4.241,5,DEV_A03,success,0,
+EVT00277,2024-11-27 15:09:00,USR_1006,Anjali Verma,Intelligence,login,Pune,Level-2,71507.0,192.168.6.131,17,DEV_A14,success,0,
+EVT00158,2024-11-27 15:29:00,USR_1004,Sneha Reddy,Operations,login,Chennai,Level-1,21423.0,192.168.4.194,22,DEV_A13,success,0,
+EVT00227,2024-11-27 18:15:00,USR_1007,Rohit Mehta,Support,data_export,Kolkata,Level-1,,192.168.7.218,22,DEV_A15,success,0,
+EVT00155,2024-11-28 01:54:00,USR_1005,Vikram Singh,Security,system_query,Hyderabad,Level-3,,192.168.5.174,37,DEV_A01,success,0,
+EVT00329,2024-11-28 10:00:00,USR_1006,Anjali Verma,Intelligence,login,Pune,Level-2,,192.168.1.35,5,DEV_A09,success,0,
+EVT00060,2024-11-28 10:14:00,USR_1001,Rajesh Kumar,Intelligence,file_access,Mumbai,Level-2,33662.0,192.168.1.244,9,DEV_A08,success,0,
+EVT00079,2024-11-28 10:23:00,USR_1008,Kavita Joshi,Analysis,report_generation,Ahmedabad,Level-2,,192.168.8.121,13,DEV_A12,success,0,
+EVT00330,2024-11-28 10:30:00,USR_1006,Anjali Verma,Intelligence,login,Karachi,Level-2,,180.192.133.143,8,DEV_A20,success,1,Geographic Impossibility
+EVT00205,2024-11-28 10:38:00,USR_1007,Rohit Mehta,Support,data_export,Kolkata,Level-1,20252.0,192.168.7.92,8,DEV_A02,success,0,
+EVT00167,2024-11-28 10:54:00,USR_1006,Anjali Verma,Intelligence,database_access,Pune,Level-1,,192.168.6.112,35,DEV_A02,success,0,
+EVT00196,2024-11-28 13:00:00,USR_1003,Amit Patel,Cyber,system_query,Bangalore,Level-2,55600.0,192.168.3.57,44,DEV_A11,success,0,
+EVT00404,2024-11-28 14:00:00,USR_1007,Rohit Mehta,Support,database_access,Kolkata,Level-3,,192.168.3.73,55,DEV_A03,success,1,Privilege Escalation
+EVT00052,2024-11-28 14:04:00,USR_1004,Sneha Reddy,Operations,report_generation,Chennai,Level-1,,192.168.4.169,22,DEV_A11,success,0,
+EVT00150,2024-11-28 14:20:00,USR_1002,Priya Sharma,Analysis,report_generation,Delhi,Level-2,85026.0,192.168.2.185,32,DEV_A02,success,0,
+EVT00207,2024-11-28 18:17:00,USR_1006,Anjali Verma,Intelligence,report_generation,Pune,Level-1,84560.0,192.168.6.113,25,DEV_A09,success,0,
+EVT00303,2024-11-29 04:31:00,USR_1001,Rajesh Kumar,Intelligence,database_access,Mumbai,Level-3,,192.168.4.101,115,DEV_A13,success,1,Unusual Time Access
+EVT00116,2024-11-29 10:06:00,USR_1006,Anjali Verma,Intelligence,system_query,Pune,Level-2,19894.0,192.168.6.114,43,DEV_A03,success,0,
+EVT00124,2024-11-29 10:22:00,USR_1003,Amit Patel,Cyber,system_query,Bangalore,Level-2,,192.168.3.118,18,DEV_A08,success,0,
+EVT00217,2024-11-29 10:29:00,USR_1006,Anjali Verma,Intelligence,report_generation,Pune,Level-2,73260.0,192.168.6.173,39,DEV_A03,success,0,
+EVT00331,2024-11-29 11:00:00,USR_1004,Sneha Reddy,Operations,login,Proxy Server,Level-1,,96.151.177.129,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00332,2024-11-29 11:02:00,USR_1004,Sneha Reddy,Operations,login,Unknown,Level-1,,54.7.124.27,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00333,2024-11-29 11:04:00,USR_1004,Sneha Reddy,Operations,login,Proxy Server,Level-1,,63.236.247.22,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00334,2024-11-29 11:06:00,USR_1004,Sneha Reddy,Operations,login,Unknown,Level-1,,28.90.80.88,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00335,2024-11-29 11:08:00,USR_1004,Sneha Reddy,Operations,login,Proxy Server,Level-1,,36.134.124.90,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00336,2024-11-29 11:10:00,USR_1004,Sneha Reddy,Operations,login,Proxy Server,Level-1,,22.113.185.179,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00337,2024-11-29 11:12:00,USR_1004,Sneha Reddy,Operations,login,Proxy Server,Level-1,,50.18.77.12,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00338,2024-11-29 11:14:00,USR_1004,Sneha Reddy,Operations,login,Unknown,Level-1,,12.218.88.166,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00138,2024-11-29 12:28:00,USR_1006,Anjali Verma,Intelligence,file_access,Pune,Level-2,90873.0,192.168.6.104,36,DEV_A15,success,0,
+EVT00003,2024-11-29 12:37:00,USR_1007,Rohit Mehta,Support,login,Kolkata,Level-1,,192.168.7.11,12,DEV_A12,success,0,
+EVT00081,2024-11-29 13:15:00,USR_1002,Priya Sharma,Analysis,data_export,Delhi,Level-2,,192.168.2.181,26,DEV_A06,success,0,
+EVT00273,2024-11-29 15:14:00,USR_1001,Rajesh Kumar,Intelligence,system_query,Mumbai,Level-1,,192.168.1.208,5,DEV_A03,success,0,
+EVT00268,2024-11-29 15:55:00,USR_1006,Anjali Verma,Intelligence,api_call,Pune,Level-2,87742.0,192.168.6.233,36,DEV_A03,success,0,
+EVT00094,2024-11-29 16:19:00,USR_1007,Rohit Mehta,Support,data_export,Kolkata,Level-1,,192.168.7.119,21,DEV_A10,success,0,
+EVT00056,2024-11-29 16:28:00,USR_1006,Anjali Verma,Intelligence,report_generation,Pune,Level-1,,192.168.6.213,12,DEV_A11,success,0,
+EVT00264,2024-11-29 17:51:00,USR_1002,Priya Sharma,Analysis,database_access,Delhi,Level-2,222802.0,192.168.2.126,38,DEV_A01,success,0,
+EVT00062,2024-11-29 17:57:00,USR_1007,Rohit Mehta,Support,file_access,Kolkata,Level-1,,192.168.7.131,30,DEV_A05,success,0,
+EVT00390,2024-11-30 00:00:00,USR_1008,Kavita Joshi,Analysis,login,Unknown,Level-2,,98.233.34.226,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00391,2024-11-30 00:02:00,USR_1008,Kavita Joshi,Analysis,login,Proxy Server,Level-2,,30.224.239.225,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00392,2024-11-30 00:04:00,USR_1008,Kavita Joshi,Analysis,login,Proxy Server,Level-2,,21.168.93.65,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00393,2024-11-30 00:06:00,USR_1008,Kavita Joshi,Analysis,login,Unknown,Level-2,,57.171.232.167,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00394,2024-11-30 00:08:00,USR_1008,Kavita Joshi,Analysis,login,Unknown,Level-2,,16.102.161.79,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00395,2024-11-30 00:10:00,USR_1008,Kavita Joshi,Analysis,login,Unknown,Level-2,,64.168.24.181,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00396,2024-11-30 00:12:00,USR_1008,Kavita Joshi,Analysis,login,Unknown,Level-2,,10.55.123.20,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00397,2024-11-30 00:14:00,USR_1008,Kavita Joshi,Analysis,login,Unknown,Level-2,,85.58.133.175,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00131,2024-11-30 10:04:00,USR_1006,Anjali Verma,Intelligence,file_access,Pune,Level-1,,192.168.6.195,45,DEV_A07,success,0,
+EVT00110,2024-11-30 10:07:00,USR_1004,Sneha Reddy,Operations,report_generation,Chennai,Level-1,,192.168.4.137,20,DEV_A09,success,0,
+EVT00010,2024-11-30 11:24:00,USR_1004,Sneha Reddy,Operations,login,Chennai,Level-1,,192.168.4.173,37,DEV_A04,success,0,
+EVT00069,2024-11-30 11:58:00,USR_1007,Rohit Mehta,Support,file_access,Kolkata,Level-1,,192.168.7.146,3,DEV_A15,success,0,
+EVT00321,2024-11-30 12:00:00,USR_1001,Rajesh Kumar,Intelligence,login,Mumbai,Level-2,,192.168.8.214,5,DEV_A10,success,0,
+EVT00322,2024-11-30 12:30:00,USR_1001,Rajesh Kumar,Intelligence,login,Beijing,Level-2,,154.173.128.36,8,DEV_A18,success,1,Geographic Impossibility
+EVT00123,2024-11-30 13:16:00,USR_1008,Kavita Joshi,Analysis,report_generation,Ahmedabad,Level-1,,192.168.8.129,20,DEV_A11,success,0,
+EVT00270,2024-11-30 13:43:00,USR_1001,Rajesh Kumar,Intelligence,report_generation,Mumbai,Level-2,,192.168.1.220,16,DEV_A04,success,0,
+EVT00111,2024-12-01 04:30:00,USR_1005,Vikram Singh,Security,file_access,Hyderabad,Level-2,,192.168.5.108,14,DEV_A15,success,0,
+EVT00080,2024-12-01 06:29:00,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.5.92,17,DEV_A14,success,0,
+EVT00104,2024-12-01 10:22:00,USR_1008,Kavita Joshi,Analysis,api_call,Ahmedabad,Level-2,14710.0,192.168.8.229,12,DEV_A06,success,0,
+EVT00144,2024-12-01 10:28:00,USR_1002,Priya Sharma,Analysis,data_export,Delhi,Level-2,,192.168.2.37,30,DEV_A09,success,0,
+EVT00025,2024-12-01 12:51:00,USR_1008,Kavita Joshi,Analysis,api_call,Ahmedabad,Level-1,87374.0,192.168.8.120,24,DEV_A07,success,0,
+EVT00298,2024-12-01 18:17:00,USR_1004,Sneha Reddy,Operations,database_access,Chennai,Level-1,,192.168.4.185,19,DEV_A15,success,0,
+EVT00040,2024-12-02 06:16:00,USR_1005,Vikram Singh,Security,data_export,Hyderabad,Level-1,227075.0,192.168.5.222,19,DEV_A01,success,0,
+EVT00311,2024-12-02 11:00:00,USR_1005,Vikram Singh,Security,login,Hyderabad,Level-3,,192.168.2.52,5,DEV_A14,success,0,
+EVT00312,2024-12-02 11:30:00,USR_1005,Vikram Singh,Security,login,Dubai,Level-3,,157.77.124.201,8,DEV_A16,success,1,Geographic Impossibility
+EVT00092,2024-12-02 15:04:00,USR_1002,Priya Sharma,Analysis,system_query,Delhi,Level-3,,192.168.2.48,11,DEV_A13,success,0,
+EVT00252,2024-12-02 15:11:00,USR_1001,Rajesh Kumar,Intelligence,report_generation,Mumbai,Level-2,,192.168.1.12,21,DEV_A10,success,0,
+EVT00236,2024-12-03 03:53:00,USR_1005,Vikram Singh,Security,system_query,Hyderabad,Level-3,300134.0,192.168.5.86,32,DEV_A14,success,0,
+EVT00053,2024-12-03 13:19:00,USR_1002,Priya Sharma,Analysis,report_generation,Delhi,Level-2,370538.0,192.168.2.85,37,DEV_A03,success,0,
+EVT00057,2024-12-03 13:42:00,USR_1002,Priya Sharma,Analysis,report_generation,Delhi,Level-3,434089.0,192.168.2.202,17,DEV_A11,success,0,
+EVT00173,2024-12-03 14:04:00,USR_1001,Rajesh Kumar,Intelligence,login,Mumbai,Level-2,,192.168.1.24,25,DEV_A14,success,0,
+EVT00214,2024-12-03 14:14:00,USR_1003,Amit Patel,Cyber,database_access,Bangalore,Level-1,,192.168.3.70,33,DEV_A01,success,0,
+EVT00229,2024-12-03 15:29:00,USR_1002,Priya Sharma,Analysis,file_access,Delhi,Level-1,,192.168.2.22,5,DEV_A05,success,0,
+EVT00218,2024-12-03 15:58:00,USR_1003,Amit Patel,Cyber,data_export,Bangalore,Level-1,,192.168.3.142,11,DEV_A05,success,0,
+EVT00169,2024-12-03 17:12:00,USR_1002,Priya Sharma,Analysis,data_export,Delhi,Level-2,434364.0,192.168.2.175,11,DEV_A04,success,0,
+EVT00130,2024-12-03 17:58:00,USR_1006,Anjali Verma,Intelligence,login,Pune,Level-1,64156.0,192.168.6.216,20,DEV_A12,success,0,
+EVT00408,2024-12-04 09:00:00,USR_1004,Sneha Reddy,Operations,database_access,Chennai,Level-3,,192.168.6.249,60,DEV_A05,success,1,Privilege Escalation
+EVT00063,2024-12-04 13:31:00,USR_1004,Sneha Reddy,Operations,report_generation,Chennai,Level-1,29827.0,192.168.4.29,20,DEV_A04,success,0,
+EVT00211,2024-12-04 16:24:00,USR_1003,Amit Patel,Cyber,system_query,Bangalore,Level-1,35116.0,192.168.3.190,30,DEV_A04,success,0,
+EVT00216,2024-12-04 16:26:00,USR_1007,Rohit Mehta,Support,data_export,Kolkata,Level-1,,192.168.7.157,6,DEV_A03,success,0,
+EVT00279,2024-12-04 17:08:00,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,14325.0,192.168.7.94,43,DEV_A02,success,0,
+EVT00406,2024-12-04 18:00:00,USR_1004,Sneha Reddy,Operations,database_access,Chennai,Level-3,,192.168.4.201,70,DEV_A10,success,1,Privilege Escalation
+EVT00365,2024-12-05 01:00:00,USR_1006,Anjali Verma,Intelligence,login,Proxy Server,Level-2,,79.56.254.109,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00366,2024-12-05 01:02:00,USR_1006,Anjali Verma,Intelligence,login,Unknown,Level-2,,93.193.64.77,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00367,2024-12-05 01:04:00,USR_1006,Anjali Verma,Intelligence,login,Unknown,Level-2,,67.68.90.221,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00368,2024-12-05 01:06:00,USR_1006,Anjali Verma,Intelligence,login,Unknown,Level-2,,66.222.255.31,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00369,2024-12-05 01:08:00,USR_1006,Anjali Verma,Intelligence,login,Unknown,Level-2,,36.208.189.151,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00370,2024-12-05 01:10:00,USR_1006,Anjali Verma,Intelligence,login,Proxy Server,Level-2,,100.157.162.110,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00371,2024-12-05 01:12:00,USR_1006,Anjali Verma,Intelligence,login,Unknown,Level-2,,88.36.201.53,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00372,2024-12-05 01:14:00,USR_1006,Anjali Verma,Intelligence,login,Unknown,Level-2,,17.146.90.137,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00373,2024-12-05 01:16:00,USR_1006,Anjali Verma,Intelligence,login,Proxy Server,Level-2,,86.138.44.83,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00374,2024-12-05 01:18:00,USR_1006,Anjali Verma,Intelligence,login,Proxy Server,Level-2,,47.147.69.244,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00186,2024-12-05 12:15:00,USR_1008,Kavita Joshi,Analysis,login,Ahmedabad,Level-2,,192.168.8.59,25,DEV_A11,success,0,
+EVT00200,2024-12-05 14:21:00,USR_1001,Rajesh Kumar,Intelligence,data_export,Mumbai,Level-1,,192.168.1.185,31,DEV_A12,success,0,
+EVT00325,2024-12-05 17:00:00,USR_1007,Rohit Mehta,Support,login,Kolkata,Level-1,,192.168.7.149,5,DEV_A02,success,0,
+EVT00326,2024-12-05 17:30:00,USR_1007,Rohit Mehta,Support,login,Dubai,Level-1,,187.153.164.235,8,DEV_A16,success,1,Geographic Impossibility
+EVT00055,2024-12-06 04:53:00,USR_1005,Vikram Singh,Security,database_access,Hyderabad,Level-2,230385.0,192.168.5.211,39,DEV_A10,success,0,
+EVT00090,2024-12-06 09:18:00,USR_1001,Rajesh Kumar,Intelligence,report_generation,Mumbai,Level-1,,192.168.1.202,33,DEV_A02,success,0,
+EVT00734,2024-12-06 13:00:00,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.5.11,1,DEV_A11,success,1,API Abuse
+EVT00735,2024-12-06 13:00:49,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.3.20,1,DEV_A05,success,1,API Abuse
+EVT00736,2024-12-06 13:01:20,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.1.208,1,DEV_A20,success,1,API Abuse
+EVT00737,2024-12-06 13:01:57,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.8.212,1,DEV_A19,success,1,API Abuse
+EVT00740,2024-12-06 13:02:24,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.3.116,1,DEV_A18,success,1,API Abuse
+EVT00738,2024-12-06 13:03:40,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.6.28,1,DEV_A11,success,1,API Abuse
+EVT00739,2024-12-06 13:04:25,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.4.57,1,DEV_A17,success,1,API Abuse
+EVT00742,2024-12-06 13:04:32,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.4.179,1,DEV_A11,success,1,API Abuse
+EVT00745,2024-12-06 13:04:57,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.6.124,1,DEV_A08,success,1,API Abuse
+EVT00743,2024-12-06 13:06:09,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.6.85,1,DEV_A07,success,1,API Abuse
+EVT00741,2024-12-06 13:06:18,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.7.33,1,DEV_A12,success,1,API Abuse
+EVT00751,2024-12-06 13:07:05,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.2.52,1,DEV_A18,success,1,API Abuse
+EVT00755,2024-12-06 13:08:24,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.3.16,1,DEV_A15,success,1,API Abuse
+EVT00754,2024-12-06 13:08:40,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.4.147,1,DEV_A14,success,1,API Abuse
+EVT00757,2024-12-06 13:08:49,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.3.213,1,DEV_A09,success,1,API Abuse
+EVT00761,2024-12-06 13:09:27,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.7.182,1,DEV_A04,success,1,API Abuse
+EVT00747,2024-12-06 13:09:32,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.2.108,1,DEV_A09,success,1,API Abuse
+EVT00744,2024-12-06 13:09:50,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.8.153,1,DEV_A01,success,1,API Abuse
+EVT00750,2024-12-06 13:10:08,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.4.92,1,DEV_A17,success,1,API Abuse
+EVT00753,2024-12-06 13:10:27,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.4.231,1,DEV_A14,success,1,API Abuse
+EVT00749,2024-12-06 13:10:45,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.8.134,1,DEV_A02,success,1,API Abuse
+EVT00763,2024-12-06 13:11:36,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.1.189,1,DEV_A03,success,1,API Abuse
+EVT00746,2024-12-06 13:11:48,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.4.20,1,DEV_A11,success,1,API Abuse
+EVT00770,2024-12-06 13:12:00,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.3.41,1,DEV_A02,success,1,API Abuse
+EVT00771,2024-12-06 13:12:20,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.7.147,1,DEV_A18,success,1,API Abuse
+EVT00748,2024-12-06 13:12:36,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.5.16,1,DEV_A17,success,1,API Abuse
+EVT00759,2024-12-06 13:15:00,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.7.109,1,DEV_A15,success,1,API Abuse
+EVT00756,2024-12-06 13:15:02,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.1.32,1,DEV_A03,success,1,API Abuse
+EVT00772,2024-12-06 13:15:50,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.5.63,1,DEV_A12,success,1,API Abuse
+EVT00768,2024-12-06 13:15:52,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.7.213,1,DEV_A18,success,1,API Abuse
+EVT00752,2024-12-06 13:16:12,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.1.170,1,DEV_A03,success,1,API Abuse
+EVT00785,2024-12-06 13:17:00,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.6.73,1,DEV_A08,success,1,API Abuse
+EVT00781,2024-12-06 13:18:48,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.4.91,1,DEV_A16,success,1,API Abuse
+EVT00774,2024-12-06 13:19:20,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.3.57,1,DEV_A08,success,1,API Abuse
+EVT00764,2024-12-06 13:21:00,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.2.84,1,DEV_A10,success,1,API Abuse
+EVT00773,2024-12-06 13:21:27,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.7.241,1,DEV_A17,success,1,API Abuse
+EVT00776,2024-12-06 13:21:42,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.1.227,1,DEV_A18,success,1,API Abuse
+EVT00758,2024-12-06 13:22:00,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.2.157,1,DEV_A08,success,1,API Abuse
+EVT00769,2024-12-06 13:22:10,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.3.86,1,DEV_A12,success,1,API Abuse
+EVT00790,2024-12-06 13:23:20,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.5.229,1,DEV_A05,success,1,API Abuse
+EVT00766,2024-12-06 13:23:28,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.7.220,1,DEV_A01,success,1,API Abuse
+EVT00787,2024-12-06 13:24:44,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.6.234,1,DEV_A16,success,1,API Abuse
+EVT00762,2024-12-06 13:25:12,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.1.174,1,DEV_A20,success,1,API Abuse
+EVT00760,2024-12-06 13:26:00,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.7.120,1,DEV_A11,success,1,API Abuse
+EVT00778,2024-12-06 13:26:24,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.2.60,1,DEV_A19,success,1,API Abuse
+EVT00780,2024-12-06 13:26:50,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.2.82,1,DEV_A20,success,1,API Abuse
+EVT00767,2024-12-06 13:27:30,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.3.146,1,DEV_A08,success,1,API Abuse
+EVT00765,2024-12-06 13:29:58,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.2.82,1,DEV_A15,success,1,API Abuse
+EVT00777,2024-12-06 13:35:07,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.2.84,1,DEV_A03,success,1,API Abuse
+EVT00784,2024-12-06 13:35:50,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.6.119,1,DEV_A06,success,1,API Abuse
+EVT00779,2024-12-06 13:38:15,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.6.101,1,DEV_A05,success,1,API Abuse
+EVT00782,2024-12-06 13:38:24,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.6.167,1,DEV_A10,success,1,API Abuse
+EVT00775,2024-12-06 13:40:19,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.5.59,1,DEV_A04,success,1,API Abuse
+EVT00786,2024-12-06 13:40:44,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.5.225,1,DEV_A12,success,1,API Abuse
+EVT00788,2024-12-06 13:44:06,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.8.101,1,DEV_A10,success,1,API Abuse
+EVT00783,2024-12-06 13:46:33,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.3.154,1,DEV_A19,success,1,API Abuse
+EVT00789,2024-12-06 13:46:45,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.2.54,1,DEV_A20,success,1,API Abuse
+EVT00791,2024-12-06 13:51:18,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-3,,192.168.4.77,1,DEV_A03,success,1,API Abuse
+EVT00086,2024-12-06 15:21:00,USR_1006,Anjali Verma,Intelligence,login,Pune,Level-2,33951.0,192.168.6.69,9,DEV_A12,success,0,
+EVT00276,2024-12-06 15:31:00,USR_1003,Amit Patel,Cyber,database_access,Bangalore,Level-2,,192.168.3.181,26,DEV_A13,success,0,
+EVT00028,2024-12-06 16:06:00,USR_1002,Priya Sharma,Analysis,database_access,Delhi,Level-3,,192.168.2.224,2,DEV_A02,success,0,
+EVT00287,2024-12-06 16:41:00,USR_1004,Sneha Reddy,Operations,report_generation,Chennai,Level-1,,192.168.4.205,33,DEV_A12,success,0,
+EVT00164,2024-12-06 17:53:00,USR_1004,Sneha Reddy,Operations,report_generation,Chennai,Level-1,,192.168.4.28,27,DEV_A14,success,0,
+EVT00405,2024-12-06 18:00:00,USR_1004,Sneha Reddy,Operations,database_access,Chennai,Level-3,,192.168.5.209,23,DEV_A10,success,1,Privilege Escalation
+EVT00152,2024-12-06 18:35:00,USR_1001,Rajesh Kumar,Intelligence,login,Mumbai,Level-1,,192.168.1.233,44,DEV_A13,success,0,
+EVT00274,2024-12-07 01:20:00,USR_1005,Vikram Singh,Security,system_query,Hyderabad,Level-3,,192.168.5.219,22,DEV_A04,success,0,
+EVT00409,2024-12-07 15:00:00,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.3.205,1,DEV_A16,success,1,API Abuse
+EVT00410,2024-12-07 15:00:24,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.1.160,1,DEV_A03,success,1,API Abuse
+EVT00411,2024-12-07 15:00:40,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.5.65,1,DEV_A02,success,1,API Abuse
+EVT00412,2024-12-07 15:01:09,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.7.139,1,DEV_A10,success,1,API Abuse
+EVT00209,2024-12-07 15:02:00,USR_1006,Anjali Verma,Intelligence,system_query,Pune,Level-1,,192.168.6.104,25,DEV_A08,success,0,
+EVT00414,2024-12-07 15:02:05,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.3.81,1,DEV_A03,success,1,API Abuse
+EVT00416,2024-12-07 15:03:23,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.6.110,1,DEV_A19,success,1,API Abuse
+EVT00415,2024-12-07 15:03:54,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.2.140,1,DEV_A07,success,1,API Abuse
+EVT00413,2024-12-07 15:04:00,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.7.118,1,DEV_A13,success,1,API Abuse
+EVT00422,2024-12-07 15:04:20,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.3.137,1,DEV_A12,success,1,API Abuse
+EVT00418,2024-12-07 15:05:15,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.1.72,1,DEV_A03,success,1,API Abuse
+EVT00421,2024-12-07 15:05:24,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.1.191,1,DEV_A05,success,1,API Abuse
+EVT00425,2024-12-07 15:05:36,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.6.216,1,DEV_A14,success,1,API Abuse
+EVT00424,2024-12-07 15:07:00,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.5.197,1,DEV_A04,success,1,API Abuse
+EVT00432,2024-12-07 15:07:40,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.1.229,1,DEV_A01,success,1,API Abuse
+EVT00419,2024-12-07 15:07:50,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.2.126,1,DEV_A20,success,1,API Abuse
+EVT00417,2024-12-07 15:08:00,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.2.89,1,DEV_A14,success,1,API Abuse
+EVT00431,2024-12-07 15:09:54,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.4.199,1,DEV_A17,success,1,API Abuse
+EVT00426,2024-12-07 15:10:29,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.2.77,1,DEV_A19,success,1,API Abuse
+EVT00420,2024-12-07 15:10:38,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.1.89,1,DEV_A06,success,1,API Abuse
+EVT00442,2024-12-07 15:11:00,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.6.61,1,DEV_A10,success,1,API Abuse
+EVT00051,2024-12-07 15:12:00,USR_1002,Priya Sharma,Analysis,login,Delhi,Level-1,,192.168.2.10,35,DEV_A15,success,0,
+EVT00423,2024-12-07 15:12:22,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.5.52,1,DEV_A12,success,1,API Abuse
+EVT00430,2024-12-07 15:12:36,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.2.238,1,DEV_A19,success,1,API Abuse
+EVT00438,2024-12-07 15:13:03,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.1.55,1,DEV_A08,success,1,API Abuse
+EVT00447,2024-12-07 15:13:18,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.4.148,1,DEV_A12,success,1,API Abuse
+EVT00433,2024-12-07 15:14:00,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.1.130,1,DEV_A12,success,1,API Abuse
+EVT00436,2024-12-07 15:15:45,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.7.244,1,DEV_A11,success,1,API Abuse
+EVT00451,2024-12-07 15:16:06,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.3.192,1,DEV_A09,success,1,API Abuse
+EVT00428,2024-12-07 15:16:28,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.6.24,1,DEV_A16,success,1,API Abuse
+EVT00437,2024-12-07 15:17:16,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.2.156,1,DEV_A12,success,1,API Abuse
+EVT00452,2024-12-07 15:17:55,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.1.245,1,DEV_A08,success,1,API Abuse
+EVT00427,2024-12-07 15:18:00,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.2.137,1,DEV_A15,success,1,API Abuse
+EVT00434,2024-12-07 15:18:20,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.3.55,1,DEV_A02,success,1,API Abuse
+EVT00429,2024-12-07 15:18:40,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.3.104,1,DEV_A06,success,1,API Abuse
+EVT00456,2024-12-07 15:18:48,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.1.121,1,DEV_A05,success,1,API Abuse
+EVT00444,2024-12-07 15:20:25,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.8.104,1,DEV_A19,success,1,API Abuse
+EVT00469,2024-12-07 15:21:00,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.7.228,1,DEV_A15,success,1,API Abuse
+EVT00441,2024-12-07 15:21:20,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.2.151,1,DEV_A15,success,1,API Abuse
+EVT00446,2024-12-07 15:21:35,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.3.11,1,DEV_A14,success,1,API Abuse
+EVT00475,2024-12-07 15:23:06,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.2.60,1,DEV_A15,success,1,API Abuse
+EVT00460,2024-12-07 15:23:48,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.2.49,1,DEV_A04,success,1,API Abuse
+EVT00435,2024-12-07 15:23:50,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.7.67,1,DEV_A11,success,1,API Abuse
+EVT00472,2024-12-07 15:24:09,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.4.43,1,DEV_A07,success,1,API Abuse
+EVT00440,2024-12-07 15:25:19,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.5.208,1,DEV_A10,success,1,API Abuse
+EVT00461,2024-12-07 15:26:00,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.8.129,1,DEV_A11,success,1,API Abuse
+EVT00439,2024-12-07 15:26:30,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.1.112,1,DEV_A03,success,1,API Abuse
+EVT00471,2024-12-07 15:26:52,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.3.41,1,DEV_A01,success,1,API Abuse
+EVT00466,2024-12-07 15:27:33,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.2.192,1,DEV_A08,success,1,API Abuse
+EVT00457,2024-12-07 15:28:00,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.5.76,1,DEV_A11,success,1,API Abuse
+EVT00449,2024-12-07 15:29:20,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.5.36,1,DEV_A07,success,1,API Abuse
+EVT00463,2024-12-07 15:29:42,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.8.88,1,DEV_A15,success,1,API Abuse
+EVT00445,2024-12-07 15:30:36,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.4.197,1,DEV_A18,success,1,API Abuse
+EVT00477,2024-12-07 15:30:36,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.1.128,1,DEV_A02,success,1,API Abuse
+EVT00459,2024-12-07 15:30:50,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.4.29,1,DEV_A07,success,1,API Abuse
+EVT00476,2024-12-07 15:31:16,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.2.241,1,DEV_A11,success,1,API Abuse
+EVT00443,2024-12-07 15:31:44,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.5.199,1,DEV_A20,success,1,API Abuse
+EVT00464,2024-12-07 15:33:00,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.2.33,1,DEV_A06,success,1,API Abuse
+EVT00478,2024-12-07 15:34:30,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.7.220,1,DEV_A13,success,1,API Abuse
+EVT00450,2024-12-07 15:36:13,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.4.117,1,DEV_A16,success,1,API Abuse
+EVT00465,2024-12-07 15:36:24,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.1.65,1,DEV_A11,success,1,API Abuse
+EVT00480,2024-12-07 15:36:41,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.6.64,1,DEV_A06,success,1,API Abuse
+EVT00458,2024-12-07 15:36:45,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.6.91,1,DEV_A15,success,1,API Abuse
+EVT00454,2024-12-07 15:36:45,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.2.158,1,DEV_A04,success,1,API Abuse
+EVT00468,2024-12-07 15:38:21,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.5.219,1,DEV_A06,success,1,API Abuse
+EVT00453,2024-12-07 15:38:52,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.7.189,1,DEV_A12,success,1,API Abuse
+EVT00448,2024-12-07 15:39:00,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.1.95,1,DEV_A01,success,1,API Abuse
+EVT00455,2024-12-07 15:39:52,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.3.173,1,DEV_A13,success,1,API Abuse
+EVT00467,2024-12-07 15:40:36,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.7.141,1,DEV_A02,success,1,API Abuse
+EVT00462,2024-12-07 15:40:38,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.2.147,1,DEV_A12,success,1,API Abuse
+EVT00481,2024-12-07 15:44:24,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.5.124,1,DEV_A05,success,1,API Abuse
+EVT00473,2024-12-07 15:48:00,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.6.185,1,DEV_A03,success,1,API Abuse
+EVT00470,2024-12-07 15:55:55,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.4.34,1,DEV_A15,success,1,API Abuse
+EVT00479,2024-12-07 15:59:30,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.1.107,1,DEV_A14,success,1,API Abuse
+EVT00474,2024-12-07 16:01:45,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,,192.168.5.244,1,DEV_A03,success,1,API Abuse
+EVT00175,2024-12-07 16:41:00,USR_1001,Rajesh Kumar,Intelligence,file_access,Mumbai,Level-2,,192.168.1.138,11,DEV_A01,success,0,
+EVT00171,2024-12-07 16:48:00,USR_1008,Kavita Joshi,Analysis,system_query,Ahmedabad,Level-2,,192.168.8.235,38,DEV_A11,success,0,
+EVT00215,2024-12-07 17:23:00,USR_1006,Anjali Verma,Intelligence,api_call,Pune,Level-1,,192.168.6.32,6,DEV_A05,success,0,
+EVT00036,2024-12-07 18:06:00,USR_1008,Kavita Joshi,Analysis,database_access,Ahmedabad,Level-1,,192.168.8.43,24,DEV_A15,success,0,
+EVT00034,2024-12-07 18:33:00,USR_1007,Rohit Mehta,Support,login,Kolkata,Level-1,,192.168.7.62,44,DEV_A12,success,0,
+EVT00070,2024-12-07 18:42:00,USR_1007,Rohit Mehta,Support,database_access,Kolkata,Level-1,29089.0,192.168.7.44,31,DEV_A03,success,0,
+EVT00013,2024-12-08 04:25:00,USR_1005,Vikram Singh,Security,login,Hyderabad,Level-1,,192.168.5.45,34,DEV_A08,success,0,
+EVT00286,2024-12-08 06:37:00,USR_1005,Vikram Singh,Security,report_generation,Hyderabad,Level-2,107860.0,192.168.5.94,16,DEV_A07,success,0,
+EVT00143,2024-12-08 12:20:00,USR_1006,Anjali Verma,Intelligence,database_access,Pune,Level-1,17614.0,192.168.6.199,28,DEV_A09,success,0,
+EVT00066,2024-12-08 15:44:00,USR_1007,Rohit Mehta,Support,database_access,Kolkata,Level-1,,192.168.7.205,38,DEV_A07,success,0,
+EVT00221,2024-12-08 18:09:00,USR_1003,Amit Patel,Cyber,file_access,Bangalore,Level-2,,192.168.3.154,4,DEV_A14,success,0,
+EVT00642,2024-12-09 09:00:00,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.1.22,1,DEV_A04,success,1,API Abuse
+EVT00643,2024-12-09 09:00:46,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.8.107,1,DEV_A04,success,1,API Abuse
+EVT00645,2024-12-09 09:01:39,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.1.87,1,DEV_A14,success,1,API Abuse
+EVT00646,2024-12-09 09:01:44,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.5.169,1,DEV_A20,success,1,API Abuse
+EVT00644,2024-12-09 09:01:50,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.5.131,1,DEV_A05,success,1,API Abuse
+EVT00647,2024-12-09 09:02:20,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.7.222,1,DEV_A04,success,1,API Abuse
+EVT00649,2024-12-09 09:03:02,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.8.60,1,DEV_A20,success,1,API Abuse
+EVT00650,2024-12-09 09:04:16,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.5.222,1,DEV_A17,success,1,API Abuse
+EVT00651,2024-12-09 09:04:48,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.6.190,1,DEV_A14,success,1,API Abuse
+EVT00648,2024-12-09 09:05:12,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.2.82,1,DEV_A04,success,1,API Abuse
+EVT00655,2024-12-09 09:05:25,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.2.223,1,DEV_A19,success,1,API Abuse
+EVT00657,2024-12-09 09:06:00,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.2.241,1,DEV_A09,success,1,API Abuse
+EVT00652,2024-12-09 09:06:20,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.3.20,1,DEV_A18,success,1,API Abuse
+EVT00660,2024-12-09 09:06:36,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.5.102,1,DEV_A11,success,1,API Abuse
+EVT00662,2024-12-09 09:06:40,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.3.179,1,DEV_A06,success,1,API Abuse
+EVT00654,2024-12-09 09:08:12,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.4.10,1,DEV_A01,success,1,API Abuse
+EVT00658,2024-12-09 09:09:04,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.8.85,1,DEV_A09,success,1,API Abuse
+EVT00653,2024-12-09 09:09:21,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.4.186,1,DEV_A16,success,1,API Abuse
+EVT00675,2024-12-09 09:11:00,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.4.181,1,DEV_A11,success,1,API Abuse
+EVT00656,2024-12-09 09:11:54,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.3.33,1,DEV_A17,success,1,API Abuse
+EVT00674,2024-12-09 09:12:48,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.5.177,1,DEV_A11,success,1,API Abuse
+EVT00668,2024-12-09 09:13:00,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.2.43,1,DEV_A02,success,1,API Abuse
+EVT00669,2024-12-09 09:13:30,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.2.116,1,DEV_A19,success,1,API Abuse
+EVT00659,2024-12-09 09:13:53,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.1.35,1,DEV_A06,success,1,API Abuse
+EVT00673,2024-12-09 09:13:57,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.7.122,1,DEV_A02,success,1,API Abuse
+EVT00672,2024-12-09 09:14:00,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.8.245,1,DEV_A16,success,1,API Abuse
+EVT00663,2024-12-09 09:14:21,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.6.238,1,DEV_A15,success,1,API Abuse
+EVT00661,2024-12-09 09:14:53,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.2.34,1,DEV_A02,success,1,API Abuse
+EVT00682,2024-12-09 09:15:20,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.4.150,1,DEV_A13,success,1,API Abuse
+EVT00686,2024-12-09 09:15:24,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.2.113,1,DEV_A14,success,1,API Abuse
+EVT00665,2024-12-09 09:16:29,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.6.56,1,DEV_A04,success,1,API Abuse
+EVT00687,2024-12-09 09:16:30,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.1.221,1,DEV_A03,success,1,API Abuse
+EVT00694,2024-12-09 09:17:20,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.6.100,1,DEV_A10,success,1,API Abuse
+EVT00678,2024-12-09 09:17:24,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.1.12,1,DEV_A06,success,1,API Abuse
+EVT00666,2024-12-09 09:18:00,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.7.126,1,DEV_A09,success,1,API Abuse
+EVT00667,2024-12-09 09:18:20,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.8.214,1,DEV_A14,success,1,API Abuse
+EVT00680,2024-12-09 09:19:00,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.2.202,1,DEV_A16,success,1,API Abuse
+EVT00696,2024-12-09 09:19:48,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.3.136,1,DEV_A05,success,1,API Abuse
+EVT00671,2024-12-09 09:21:16,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.6.166,1,DEV_A01,success,1,API Abuse
+EVT00701,2024-12-09 09:21:38,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.2.207,1,DEV_A15,success,1,API Abuse
+EVT00664,2024-12-09 09:21:38,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.5.234,1,DEV_A03,success,1,API Abuse
+EVT00670,2024-12-09 09:23:20,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.8.56,1,DEV_A20,success,1,API Abuse
+EVT00718,2024-12-09 09:25:20,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.2.16,1,DEV_A13,success,1,API Abuse
+EVT00681,2024-12-09 09:26:00,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.4.94,1,DEV_A09,success,1,API Abuse
+EVT00706,2024-12-09 09:27:44,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.7.178,1,DEV_A20,success,1,API Abuse
+EVT00691,2024-12-09 09:27:46,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.8.94,1,DEV_A18,success,1,API Abuse
+EVT00677,2024-12-09 09:29:10,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.6.179,1,DEV_A13,success,1,API Abuse
+EVT00723,2024-12-09 09:29:42,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.6.218,1,DEV_A15,success,1,API Abuse
+EVT00698,2024-12-09 09:29:52,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.4.40,1,DEV_A13,success,1,API Abuse
+EVT00676,2024-12-09 09:30:02,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.2.120,1,DEV_A08,success,1,API Abuse
+EVT00683,2024-12-09 09:30:45,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.4.30,1,DEV_A15,success,1,API Abuse
+EVT00699,2024-12-09 09:31:21,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.8.221,1,DEV_A07,success,1,API Abuse
+EVT00710,2024-12-09 09:31:44,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.7.164,1,DEV_A17,success,1,API Abuse
+EVT00679,2024-12-09 09:32:04,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.8.228,1,DEV_A16,success,1,API Abuse
+EVT00726,2024-12-09 09:32:12,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.7.109,1,DEV_A14,success,1,API Abuse
+EVT00705,2024-12-09 09:32:33,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.3.197,1,DEV_A05,success,1,API Abuse
+EVT00690,2024-12-09 09:32:48,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.6.221,1,DEV_A02,success,1,API Abuse
+EVT00684,2024-12-09 09:33:36,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.8.32,1,DEV_A16,success,1,API Abuse
+EVT00714,2024-12-09 09:33:36,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.3.138,1,DEV_A18,success,1,API Abuse
+EVT00685,2024-12-09 09:34:24,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.6.40,1,DEV_A16,success,1,API Abuse
+EVT00724,2024-12-09 09:35:32,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.4.200,1,DEV_A18,success,1,API Abuse
+EVT00719,2024-12-09 09:37:13,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.1.181,1,DEV_A02,success,1,API Abuse
+EVT00700,2024-12-09 09:39:38,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.2.203,1,DEV_A14,success,1,API Abuse
+EVT00693,2024-12-09 09:40:48,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.2.34,1,DEV_A08,success,1,API Abuse
+EVT00733,2024-12-09 09:40:57,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.7.20,1,DEV_A14,success,1,API Abuse
+EVT00720,2024-12-09 09:41:36,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.5.202,1,DEV_A06,success,1,API Abuse
+EVT00697,2024-12-09 09:42:10,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.2.75,1,DEV_A20,success,1,API Abuse
+EVT00689,2024-12-09 09:43:05,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.4.177,1,DEV_A15,success,1,API Abuse
+EVT00688,2024-12-09 09:44:28,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.5.237,1,DEV_A17,success,1,API Abuse
+EVT00711,2024-12-09 09:44:51,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.6.192,1,DEV_A18,success,1,API Abuse
+EVT00709,2024-12-09 09:45:47,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.5.125,1,DEV_A05,success,1,API Abuse
+EVT00728,2024-12-09 09:45:52,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.8.222,1,DEV_A08,success,1,API Abuse
+EVT00732,2024-12-09 09:46:30,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.3.198,1,DEV_A17,success,1,API Abuse
+EVT00695,2024-12-09 09:48:35,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.6.189,1,DEV_A04,success,1,API Abuse
+EVT00702,2024-12-09 09:49:00,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.3.137,1,DEV_A01,success,1,API Abuse
+EVT00692,2024-12-09 09:49:10,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.8.193,1,DEV_A12,success,1,API Abuse
+EVT00721,2024-12-09 09:50:02,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.5.47,1,DEV_A02,success,1,API Abuse
+EVT00708,2024-12-09 09:50:36,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.4.80,1,DEV_A13,success,1,API Abuse
+EVT00722,2024-12-09 09:50:40,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.4.202,1,DEV_A18,success,1,API Abuse
+EVT00716,2024-12-09 09:51:48,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.8.159,1,DEV_A19,success,1,API Abuse
+EVT00703,2024-12-09 09:53:53,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.1.151,1,DEV_A14,success,1,API Abuse
+EVT00731,2024-12-09 09:56:22,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.8.55,1,DEV_A03,success,1,API Abuse
+EVT00727,2024-12-09 09:56:40,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.1.13,1,DEV_A09,success,1,API Abuse
+EVT00717,2024-12-09 09:57:30,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.5.234,1,DEV_A14,success,1,API Abuse
+EVT00704,2024-12-09 09:58:54,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.8.246,1,DEV_A17,success,1,API Abuse
+EVT00725,2024-12-09 10:00:52,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.4.140,1,DEV_A10,success,1,API Abuse
+EVT00707,2024-12-09 10:02:50,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.6.139,1,DEV_A13,success,1,API Abuse
+EVT00713,2024-12-09 10:09:49,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.5.185,1,DEV_A12,success,1,API Abuse
+EVT00712,2024-12-09 10:10:00,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.4.61,1,DEV_A07,success,1,API Abuse
+EVT00715,2024-12-09 10:13:00,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.6.191,1,DEV_A04,success,1,API Abuse
+EVT00730,2024-12-09 10:19:12,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.4.208,1,DEV_A07,success,1,API Abuse
+EVT00729,2024-12-09 10:27:00,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.6.203,1,DEV_A19,success,1,API Abuse
+EVT00180,2024-12-09 11:45:00,USR_1007,Rohit Mehta,Support,database_access,Kolkata,Level-1,,192.168.7.106,43,DEV_A13,success,0,
+EVT00235,2024-12-09 11:57:00,USR_1008,Kavita Joshi,Analysis,system_query,Ahmedabad,Level-1,81356.0,192.168.8.91,12,DEV_A07,success,0,
+EVT00015,2024-12-09 15:29:00,USR_1007,Rohit Mehta,Support,system_query,Kolkata,Level-1,37256.0,192.168.7.230,2,DEV_A11,success,0,
+EVT00148,2024-12-09 15:33:00,USR_1006,Anjali Verma,Intelligence,login,Pune,Level-2,,192.168.6.120,8,DEV_A13,success,0,
+EVT00160,2024-12-09 16:28:00,USR_1007,Rohit Mehta,Support,api_call,Kolkata,Level-1,34577.0,192.168.7.39,24,DEV_A07,success,0,
+EVT00122,2024-12-10 10:55:00,USR_1003,Amit Patel,Cyber,api_call,Bangalore,Level-1,,192.168.3.159,11,DEV_A04,success,0,
+EVT00482,2024-12-10 18:00:00,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.5.137,1,DEV_A14,success,1,API Abuse
+EVT00483,2024-12-10 18:00:55,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.8.25,1,DEV_A03,success,1,API Abuse
+EVT00484,2024-12-10 18:01:14,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.7.45,1,DEV_A14,success,1,API Abuse
+EVT00486,2024-12-10 18:01:24,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.7.210,1,DEV_A12,success,1,API Abuse
+EVT00485,2024-12-10 18:01:36,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.4.171,1,DEV_A18,success,1,API Abuse
+EVT00491,2024-12-10 18:03:27,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.8.145,1,DEV_A12,success,1,API Abuse
+EVT00489,2024-12-10 18:03:37,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.1.91,1,DEV_A20,success,1,API Abuse
+EVT00487,2024-12-10 18:04:10,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.8.98,1,DEV_A19,success,1,API Abuse
+EVT00490,2024-12-10 18:04:32,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.1.239,1,DEV_A09,success,1,API Abuse
+EVT00494,2024-12-10 18:04:36,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.4.157,1,DEV_A13,success,1,API Abuse
+EVT00488,2024-12-10 18:05:12,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.6.109,1,DEV_A09,success,1,API Abuse
+EVT00493,2024-12-10 18:06:25,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.4.78,1,DEV_A18,success,1,API Abuse
+EVT00500,2024-12-10 18:06:36,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.2.24,1,DEV_A08,success,1,API Abuse
+EVT00495,2024-12-10 18:09:06,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.3.55,1,DEV_A08,success,1,API Abuse
+EVT00492,2024-12-10 18:09:30,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.4.50,1,DEV_A04,success,1,API Abuse
+EVT00503,2024-12-10 18:11:12,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.3.97,1,DEV_A06,success,1,API Abuse
+EVT00514,2024-12-10 18:11:44,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.3.164,1,DEV_A11,success,1,API Abuse
+EVT00496,2024-12-10 18:13:18,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.6.216,1,DEV_A12,success,1,API Abuse
+EVT00517,2024-12-10 18:14:00,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.4.98,1,DEV_A11,success,1,API Abuse
+EVT00512,2024-12-10 18:14:00,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.3.196,1,DEV_A01,success,1,API Abuse
+EVT00497,2024-12-10 18:14:15,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.1.190,1,DEV_A12,success,1,API Abuse
+EVT00499,2024-12-10 18:14:27,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.5.54,1,DEV_A16,success,1,API Abuse
+EVT00510,2024-12-10 18:14:28,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.6.67,1,DEV_A19,success,1,API Abuse
+EVT00504,2024-12-10 18:14:40,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.1.15,1,DEV_A05,success,1,API Abuse
+EVT00516,2024-12-10 18:14:44,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.8.46,1,DEV_A11,success,1,API Abuse
+EVT00498,2024-12-10 18:14:56,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.3.154,1,DEV_A07,success,1,API Abuse
+EVT00511,2024-12-10 18:14:59,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.7.88,1,DEV_A10,success,1,API Abuse
+EVT00502,2024-12-10 18:16:40,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.1.94,1,DEV_A20,success,1,API Abuse
+EVT00521,2024-12-10 18:16:54,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.1.22,1,DEV_A13,success,1,API Abuse
+EVT00508,2024-12-10 18:17:20,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.3.50,1,DEV_A14,success,1,API Abuse
+EVT00526,2024-12-10 18:17:36,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.1.85,1,DEV_A01,success,1,API Abuse
+EVT00518,2024-12-10 18:18:00,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.2.220,1,DEV_A11,success,1,API Abuse
+EVT00501,2024-12-10 18:18:22,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.4.15,1,DEV_A17,success,1,API Abuse
+EVT00507,2024-12-10 18:18:45,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.2.96,1,DEV_A10,success,1,API Abuse
+EVT00539,2024-12-10 18:19:57,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.4.53,1,DEV_A10,success,1,API Abuse
+EVT00506,2024-12-10 18:21:12,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.6.28,1,DEV_A12,success,1,API Abuse
+EVT00505,2024-12-10 18:21:51,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.3.208,1,DEV_A04,success,1,API Abuse
+EVT00520,2024-12-10 18:22:10,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.2.99,1,DEV_A09,success,1,API Abuse
+EVT00529,2024-12-10 18:23:30,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.2.150,1,DEV_A03,success,1,API Abuse
+EVT00540,2024-12-10 18:24:10,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.8.226,1,DEV_A04,success,1,API Abuse
+EVT00532,2024-12-10 18:25:00,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.1.35,1,DEV_A11,success,1,API Abuse
+EVT00509,2024-12-10 18:27:00,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.8.176,1,DEV_A11,success,1,API Abuse
+EVT00533,2024-12-10 18:28:03,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.4.114,1,DEV_A18,success,1,API Abuse
+EVT00513,2024-12-10 18:28:56,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.7.227,1,DEV_A19,success,1,API Abuse
+EVT00552,2024-12-10 18:29:10,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.7.241,1,DEV_A02,success,1,API Abuse
+EVT00519,2024-12-10 18:29:36,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.1.77,1,DEV_A07,success,1,API Abuse
+EVT00527,2024-12-10 18:30:00,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.5.36,1,DEV_A03,success,1,API Abuse
+EVT00524,2024-12-10 18:30:48,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.2.222,1,DEV_A16,success,1,API Abuse
+EVT00547,2024-12-10 18:31:25,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.2.31,1,DEV_A12,success,1,API Abuse
+EVT00528,2024-12-10 18:31:26,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.3.237,1,DEV_A13,success,1,API Abuse
+EVT00558,2024-12-10 18:31:40,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.7.152,1,DEV_A13,success,1,API Abuse
+EVT00522,2024-12-10 18:32:00,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.7.52,1,DEV_A14,success,1,API Abuse
+EVT00515,2024-12-10 18:32:27,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.4.173,1,DEV_A19,success,1,API Abuse
+EVT00530,2024-12-10 18:32:48,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.8.190,1,DEV_A01,success,1,API Abuse
+EVT00555,2024-12-10 18:34:04,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.1.118,1,DEV_A03,success,1,API Abuse
+EVT00535,2024-12-10 18:34:27,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.4.34,1,DEV_A02,success,1,API Abuse
+EVT00523,2024-12-10 18:34:51,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.7.99,1,DEV_A18,success,1,API Abuse
+EVT00538,2024-12-10 18:35:28,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.8.61,1,DEV_A04,success,1,API Abuse
+EVT00542,2024-12-10 18:36:00,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.2.174,1,DEV_A18,success,1,API Abuse
+EVT00546,2024-12-10 18:36:16,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.5.154,1,DEV_A02,success,1,API Abuse
+EVT00554,2024-12-10 18:37:12,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.3.64,1,DEV_A07,success,1,API Abuse
+EVT00545,2024-12-10 18:37:48,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.8.129,1,DEV_A09,success,1,API Abuse
+EVT00549,2024-12-10 18:37:58,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.1.225,1,DEV_A13,success,1,API Abuse
+EVT00541,2024-12-10 18:38:21,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.7.130,1,DEV_A16,success,1,API Abuse
+EVT00531,2024-12-10 18:38:23,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.3.165,1,DEV_A14,success,1,API Abuse
+EVT00562,2024-12-10 18:38:40,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.3.155,1,DEV_A19,success,1,API Abuse
+EVT00537,2024-12-10 18:39:25,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.1.119,1,DEV_A03,success,1,API Abuse
+EVT00525,2024-12-10 18:40:08,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.4.51,1,DEV_A15,success,1,API Abuse
+EVT00536,2024-12-10 18:40:30,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.8.49,1,DEV_A02,success,1,API Abuse
+EVT00544,2024-12-10 18:44:26,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.3.124,1,DEV_A02,success,1,API Abuse
+EVT00543,2024-12-10 18:44:44,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.3.104,1,DEV_A13,success,1,API Abuse
+EVT00534,2024-12-10 18:46:48,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.5.179,1,DEV_A10,success,1,API Abuse
+EVT00566,2024-12-10 18:50:24,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.7.177,1,DEV_A16,success,1,API Abuse
+EVT00568,2024-12-10 18:53:02,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.7.46,1,DEV_A20,success,1,API Abuse
+EVT00556,2024-12-10 18:57:58,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.4.220,1,DEV_A05,success,1,API Abuse
+EVT00548,2024-12-10 18:59:24,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.7.203,1,DEV_A19,success,1,API Abuse
+EVT00550,2024-12-10 19:00:04,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.7.147,1,DEV_A16,success,1,API Abuse
+EVT00570,2024-12-10 19:00:08,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.4.22,1,DEV_A16,success,1,API Abuse
+EVT00553,2024-12-10 19:01:32,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.3.40,1,DEV_A15,success,1,API Abuse
+EVT00551,2024-12-10 19:04:24,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.4.131,1,DEV_A10,success,1,API Abuse
+EVT00560,2024-12-10 19:08:54,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.8.244,1,DEV_A01,success,1,API Abuse
+EVT00559,2024-12-10 19:10:35,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.6.229,1,DEV_A09,success,1,API Abuse
+EVT00557,2024-12-10 19:12:30,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.5.91,1,DEV_A03,success,1,API Abuse
+EVT00565,2024-12-10 19:14:42,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.6.234,1,DEV_A14,success,1,API Abuse
+EVT00564,2024-12-10 19:16:32,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.2.211,1,DEV_A10,success,1,API Abuse
+EVT00563,2024-12-10 19:16:57,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.2.246,1,DEV_A04,success,1,API Abuse
+EVT00561,2024-12-10 19:17:41,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.7.38,1,DEV_A14,success,1,API Abuse
+EVT00567,2024-12-10 19:19:20,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.8.19,1,DEV_A06,success,1,API Abuse
+EVT00569,2024-12-10 19:24:06,USR_1001,Rajesh Kumar,Intelligence,api_call,Mumbai,Level-2,,192.168.7.19,1,DEV_A13,success,1,API Abuse
+EVT00128,2024-12-11 10:41:00,USR_1003,Amit Patel,Cyber,database_access,Bangalore,Level-2,,192.168.3.18,39,DEV_A06,success,0,
+EVT00134,2024-12-11 10:52:00,USR_1004,Sneha Reddy,Operations,api_call,Chennai,Level-1,,192.168.4.87,43,DEV_A07,success,0,
+EVT00119,2024-12-11 12:43:00,USR_1002,Priya Sharma,Analysis,login,Delhi,Level-1,,192.168.2.121,8,DEV_A13,success,0,
+EVT00118,2024-12-11 14:45:00,USR_1007,Rohit Mehta,Support,data_export,Kolkata,Level-1,,192.168.7.148,4,DEV_A10,success,0,
+EVT00223,2024-12-11 16:34:00,USR_1001,Rajesh Kumar,Intelligence,login,Mumbai,Level-2,,192.168.1.216,45,DEV_A07,success,0,
+EVT00203,2024-12-12 09:21:00,USR_1006,Anjali Verma,Intelligence,login,Pune,Level-1,,192.168.6.121,27,DEV_A12,success,0,
+EVT00012,2024-12-12 12:31:00,USR_1006,Anjali Verma,Intelligence,api_call,Pune,Level-2,19301.0,192.168.6.73,37,DEV_A09,success,0,
+EVT00258,2024-12-12 13:23:00,USR_1001,Rajesh Kumar,Intelligence,report_generation,Mumbai,Level-1,16495.0,192.168.1.129,21,DEV_A03,success,0,
+EVT00238,2024-12-12 13:50:00,USR_1008,Kavita Joshi,Analysis,data_export,Ahmedabad,Level-1,,192.168.8.159,32,DEV_A03,success,0,
+EVT00137,2024-12-12 15:06:00,USR_1003,Amit Patel,Cyber,data_export,Bangalore,Level-2,,192.168.3.250,19,DEV_A01,success,0,
+EVT00297,2024-12-12 15:50:00,USR_1008,Kavita Joshi,Analysis,login,Ahmedabad,Level-1,,192.168.8.245,4,DEV_A04,success,0,
+EVT00250,2024-12-12 16:12:00,USR_1008,Kavita Joshi,Analysis,data_export,Ahmedabad,Level-2,85659.0,192.168.8.25,7,DEV_A11,success,0,
+EVT00084,2024-12-12 16:45:00,USR_1004,Sneha Reddy,Operations,api_call,Chennai,Level-1,,192.168.4.14,7,DEV_A05,success,0,
+EVT00230,2024-12-12 18:43:00,USR_1008,Kavita Joshi,Analysis,api_call,Ahmedabad,Level-2,,192.168.8.226,8,DEV_A07,success,0,
+EVT00174,2024-12-12 23:55:00,USR_1005,Vikram Singh,Security,data_export,Hyderabad,Level-1,,192.168.5.139,26,DEV_A08,success,0,
+EVT00275,2024-12-13 00:33:00,USR_1005,Vikram Singh,Security,file_access,Hyderabad,Level-2,36959.0,192.168.5.152,39,DEV_A15,success,0,
+EVT00020,2024-12-13 11:30:00,USR_1003,Amit Patel,Cyber,system_query,Bangalore,Level-1,80507.0,192.168.3.118,15,DEV_A15,success,0,
+EVT00181,2024-12-13 11:44:00,USR_1006,Anjali Verma,Intelligence,data_export,Pune,Level-1,,192.168.6.118,34,DEV_A06,success,0,
+EVT00009,2024-12-13 12:17:00,USR_1006,Anjali Verma,Intelligence,report_generation,Pune,Level-1,,192.168.6.53,36,DEV_A12,success,0,
+EVT00024,2024-12-13 13:31:00,USR_1004,Sneha Reddy,Operations,file_access,Chennai,Level-1,,192.168.4.195,38,DEV_A10,success,0,
+EVT00054,2024-12-13 15:24:00,USR_1004,Sneha Reddy,Operations,report_generation,Chennai,Level-1,,192.168.4.54,41,DEV_A10,success,0,
+EVT00046,2024-12-13 15:55:00,USR_1006,Anjali Verma,Intelligence,report_generation,Pune,Level-1,92917.0,192.168.6.37,26,DEV_A14,success,0,
+EVT00061,2024-12-13 16:33:00,USR_1003,Amit Patel,Cyber,system_query,Bangalore,Level-2,,192.168.3.238,30,DEV_A10,success,0,
+EVT00261,2024-12-13 17:52:00,USR_1008,Kavita Joshi,Analysis,file_access,Ahmedabad,Level-1,,192.168.8.162,7,DEV_A09,success,0,
+EVT00157,2024-12-13 18:25:00,USR_1003,Amit Patel,Cyber,database_access,Bangalore,Level-1,,192.168.3.17,7,DEV_A12,success,0,
+EVT00126,2024-12-13 22:25:00,USR_1005,Vikram Singh,Security,login,Hyderabad,Level-1,,192.168.5.185,5,DEV_A15,success,0,
+EVT00310,2024-12-14 03:24:00,USR_1004,Sneha Reddy,Operations,database_access,Chennai,Level-3,,192.168.3.45,79,DEV_A10,success,1,Unusual Time Access
+EVT00304,2024-12-14 03:37:00,USR_1007,Rohit Mehta,Support,database_access,Kolkata,Level-3,,192.168.7.31,82,DEV_A08,success,1,Unusual Time Access
+EVT00339,2024-12-14 05:00:00,USR_1002,Priya Sharma,Analysis,login,Unknown,Level-3,,76.45.142.41,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00340,2024-12-14 05:02:00,USR_1002,Priya Sharma,Analysis,login,Proxy Server,Level-3,,81.110.246.119,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00341,2024-12-14 05:04:00,USR_1002,Priya Sharma,Analysis,login,Unknown,Level-3,,61.162.48.48,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00342,2024-12-14 05:06:00,USR_1002,Priya Sharma,Analysis,login,Proxy Server,Level-3,,60.8.189.158,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00343,2024-12-14 05:08:00,USR_1002,Priya Sharma,Analysis,login,Unknown,Level-3,,67.152.110.100,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00344,2024-12-14 05:10:00,USR_1002,Priya Sharma,Analysis,login,Unknown,Level-3,,100.55.53.72,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00345,2024-12-14 05:12:00,USR_1002,Priya Sharma,Analysis,login,Unknown,Level-3,,83.27.205.224,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00346,2024-12-14 05:14:00,USR_1002,Priya Sharma,Analysis,login,Unknown,Level-3,,56.84.51.118,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00347,2024-12-14 05:16:00,USR_1002,Priya Sharma,Analysis,login,Unknown,Level-3,,43.172.221.126,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00348,2024-12-14 05:18:00,USR_1002,Priya Sharma,Analysis,login,Proxy Server,Level-3,,86.100.157.101,0,DEV_UNKNOWN,failed,1,Brute Force Attack
+EVT00239,2024-12-14 11:15:00,USR_1007,Rohit Mehta,Support,database_access,Kolkata,Level-1,,192.168.7.189,9,DEV_A04,success,0,
+EVT00044,2024-12-14 12:15:00,USR_1006,Anjali Verma,Intelligence,report_generation,Pune,Level-1,74385.0,192.168.6.236,28,DEV_A10,success,0,
+EVT00102,2024-12-14 12:53:00,USR_1002,Priya Sharma,Analysis,data_export,Delhi,Level-3,,192.168.2.15,45,DEV_A14,success,0,
+EVT00077,2024-12-14 13:38:00,USR_1002,Priya Sharma,Analysis,data_export,Delhi,Level-1,,192.168.2.154,4,DEV_A06,success,0,
+EVT00161,2024-12-14 13:43:00,USR_1002,Priya Sharma,Analysis,system_query,Delhi,Level-2,,192.168.2.88,4,DEV_A04,success,0,
+EVT00295,2024-12-14 13:52:00,USR_1004,Sneha Reddy,Operations,data_export,Chennai,Level-1,43591.0,192.168.4.204,4,DEV_A02,success,0,
+EVT00245,2024-12-14 18:34:00,USR_1002,Priya Sharma,Analysis,api_call,Delhi,Level-2,,192.168.2.207,11,DEV_A05,success,0,
+EVT00097,2024-12-15 02:55:00,USR_1005,Vikram Singh,Security,api_call,Hyderabad,Level-1,,192.168.5.246,18,DEV_A13,success,0,
+EVT00266,2024-12-15 14:04:00,USR_1007,Rohit Mehta,Support,system_query,Kolkata,Level-1,,192.168.7.249,6,DEV_A15,success,0,
+EVT00085,2024-12-15 15:15:00,USR_1004,Sneha Reddy,Operations,login,Chennai,Level-1,,192.168.4.104,32,DEV_A09,success,0,
+EVT00241,2024-12-16 09:08:00,USR_1008,Kavita Joshi,Analysis,system_query,Ahmedabad,Level-1,,192.168.8.179,32,DEV_A09,success,0,
+EVT00023,2024-12-16 10:40:00,USR_1001,Rajesh Kumar,Intelligence,database_access,Mumbai,Level-1,5117.0,192.168.1.230,23,DEV_A02,success,0,
+EVT00246,2024-12-16 13:05:00,USR_1001,Rajesh Kumar,Intelligence,login,Mumbai,Level-2,,192.168.1.201,32,DEV_A04,success,0,
+EVT00278,2024-12-16 13:09:00,USR_1004,Sneha Reddy,Operations,data_export,Chennai,Level-1,,192.168.4.24,37,DEV_A07,success,0,
+EVT00213,2024-12-16 14:04:00,USR_1006,Anjali Verma,Intelligence,system_query,Pune,Level-2,,192.168.6.227,12,DEV_A12,success,0,
+EVT00225,2024-12-16 14:20:00,USR_1003,Amit Patel,Cyber,report_generation,Bangalore,Level-2,,192.168.3.43,25,DEV_A09,success,0,
+EVT00076,2024-12-16 15:12:00,USR_1007,Rohit Mehta,Support,database_access,Kolkata,Level-1,,192.168.7.222,42,DEV_A04,success,0,
+EVT00262,2024-12-16 17:23:00,USR_1008,Kavita Joshi,Analysis,database_access,Ahmedabad,Level-1,72781.0,192.168.8.241,34,DEV_A04,success,0,
+EVT00259,2024-12-16 17:49:00,USR_1007,Rohit Mehta,Support,login,Kolkata,Level-1,,192.168.7.173,20,DEV_A06,success,0,
